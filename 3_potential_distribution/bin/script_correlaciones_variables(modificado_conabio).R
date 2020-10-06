@@ -1,5 +1,5 @@
 #############################################################################################
-###########Establecer correlaciones variables (Marco F. Ortiz y David Prieto-Torres##########
+###########Establecer correlaciones variables                                      ##########
 #############################################################################################
 #install.packages(c("foreign", "corrplot", "usdm"))
 
