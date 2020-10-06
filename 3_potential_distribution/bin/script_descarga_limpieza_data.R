@@ -28,7 +28,7 @@ dups2<- duplicated(data[, c("long", "lat")])# segundo paso para quitar duplicado
 sum(dups2)# number of duplicates
 
 resol <- 0.00833 ### QUITAR LOS DATOS REPETIDOS ESPACIALMENTE en un radio de 1km2
-# Este número lo saque de ArcMap de las propiedades de las capas de bioclim que usare para modelar
+# Este nÃºmero lo saque de ArcMap de las propiedades de las capas de bioclim que usare para modelar
 clean_dup <- function(data,longitude,latitude,threshold=0.0){  data <- data[!is.na(data[,longitude]),]
 dat_sp <- SpatialPointsDataFrame(data[,c(longitude ,latitude)],data)
 dat_sp1 <- remove.duplicates(dat_sp, zero = threshold)
