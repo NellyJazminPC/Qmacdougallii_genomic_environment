@@ -52,14 +52,19 @@ The investigation of **functional genomic variation** allows the identification 
 
 The study area is located in the Sierra Juárez de Oaxaca, in three municipalities, San Pedro Yolox, Santiago Comaltepec, and Ixtlán de Juárez. Considering eight sampling sites in its known distribution (approximately 28 km), five sites in the northern zone, and three in the southern zone.
 
-In the work of Nelly-Pacheco (2019), the genomic variation at the population level and the potential distribution of the species were analyzed considering these same sampling sites and 80 individuals collected. From the massive sequencing based on the sequence-based genotyping (SBG) method, 700,000 readings were obtained per individual (Pacheco-Cruz, 2019).
-
-
-
-The following analyzes will be carried out from this massive sequencing data set as well as the georeferencing data of each of its individuals collected.
-
+In the work of [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999), the genomic variation at the population level and the potential distribution of the species were analyzed considering these same sampling sites and 80 individuals collected. From the massive sequencing based on the **Sequence-based genotyping** (SBG, [for more information](https://www.youtube.com/watch?v=CpcM45HpcMU)) method, 700,000 readings were obtained per individual.
 
 |     |     |
 | -- | -- |
 |![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019.png)| |
 |From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)| |
+
+
+
+The following analyzes will be carried out from this massive sequencing data set as well as the georeferencing data of each of its individuals collected.
+|     | 
+| -- | 
+|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/1method.png)|
+|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/2method.png) |
+
+
