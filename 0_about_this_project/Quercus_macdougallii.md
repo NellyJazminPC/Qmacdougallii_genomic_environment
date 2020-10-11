@@ -33,15 +33,10 @@ The investigation of **functional genomic variation** allows the identification 
 
 In long-lived tree species, genes associated with an adaptive response to climatic changes have been reported, therefore, it is expected that *Q. macdougallii*, an endemic oak, will present genes associated with environmental variables, such as temperature, precipitation and soil.
 
-## Objetives
+## Objectives
 
-**Overall objective:** Analyze the functional genomic variation of Quercus macdougallii to identify genes associated with environmental variables.
-
-**Specific objectives:**
-
-1. Identify the SNPs outliers in the known distribution of the species and if these variations are found in coding regions.
-2. Analyze the sets of outlier SNPs associated with genes with multivariate models to detect the presence of correlations between molecular markers, SNPs, and selected environmental variables.
-3. Validate the expression of the identified candidate genes through differential expression analysis.
+![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Objectives_overall_specific.png)
 
 ## Materials and methods
+
 
