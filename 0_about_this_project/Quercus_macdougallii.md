@@ -11,11 +11,11 @@ Temperate forests are important **reservoirs of biomass and biodiversity**, in a
 
 The *Quercus* genus, also known as oaks, is one of the most important groups in the forest ecosystems of the northern hemisphere [(Cavender-Bares, 2016)](https://www.cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/2016.cavender.journal.ios%2327.pdf). Currently, Mexico is the main center of diversification of the *Quercus* genus (approx. 150 spp.), of which about half (76 spp.) are endemic to the country ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel *et al.,* 2015](https://www.internationaloaksociety.org/content/encinos-de-mexico-new-book-about-mexican-oaks-spanish-0)).
 
-This great diversity and endemism represent an important area of opportunity for studies of adaptation in long-lived tree species to environmental variables in the face of climate change, especially since their ability to face rapid environmental changes can indicate functional processes essential for their survival, being an ideal setting for functional genomics studies ([IPCC](https://www.ipcc.ch/); [Naidoo *et al.,* 2019](https://www.frontiersin.org/articles/10.3389/fpls.2019.00273/full)).
-
 |     |     |
 | -- | -- | 
 |![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Denk_et_al_2017.png)| From the work of [Denk *et al.,* 2017. An Updated Infrageneric Classification of the Oaks: Review of Previous Taxonomic Schemes and Synthesis of Evolutionary Patterns](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2) | 
+
+This great diversity and endemism represent an important area of opportunity for studies of adaptation in long-lived tree species to environmental variables in the face of climate change, especially since their ability to face rapid environmental changes can indicate functional processes essential for their survival, being an ideal setting for functional genomics studies ([IPCC](https://www.ipcc.ch/); [Naidoo *et al.,* 2019](https://www.frontiersin.org/articles/10.3389/fpls.2019.00273/full)).
 
 ![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Oaks_mark.jpg)
 ### *Quercus macdougallii*
