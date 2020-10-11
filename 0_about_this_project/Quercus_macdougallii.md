@@ -38,7 +38,7 @@ The increasing availability of **genomic information** for the *Quercus* genus h
 
 The investigation of **functional genomic variation** allows the identification of genes whose function could be linked to aspects of **growth**, **development**, **differentiation** and **defense** in plants ([Müller and Gailing, 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/plb.13008)). Studying the **association of these candidate genes with environmental variables**, such as temperature, precipitation and soil ([Müller and Gailing, 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/plb.13008); [Yang *et al.,* 2018](https://www.frontiersin.org/articles/10.3389/fpls.2018.01534/full)) can help to improve the understanding of the genetic expression of the species, of its adaptive genetics variation and the responses of their populations to a changing climate. Likewise, these investigations can contribute to improve the conservation plans of species highly restricted and with specific requirements for their growth, permanence and survival, such as **_Q. macdougallii_**.
 
-![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Functional_genomics.png)
+![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/functional_genomics.png)
 
 ## Hypothesis
 
@@ -50,4 +50,16 @@ The investigation of **functional genomic variation** allows the identification 
 
 ## Materials and methods
 
+The study area is located in the Sierra Juárez de Oaxaca, in three municipalities, San Pedro Yolox, Santiago Comaltepec, and Ixtlán de Juárez. Considering eight sampling sites in its known distribution (approximately 28 km), five sites in the northern zone, and three in the southern zone.
 
+In the work of Nelly-Pacheco (2019), the genomic variation at the population level and the potential distribution of the species were analyzed considering these same sampling sites and 80 individuals collected. From the massive sequencing based on the sequence-based genotyping (SBG) method, 700,000 readings were obtained per individual (Pacheco-Cruz, 2019).
+
+
+
+The following analyzes will be carried out from this massive sequencing data set as well as the georeferencing data of each of its individuals collected.
+
+
+|     |     |
+| -- | -- |
+|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019.png)| From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of Quercus macdougalli Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)|
+|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/collecting_material.jpg)| Collecting material (leaves) for DNA extraction |
