@@ -61,5 +61,4 @@ The following analyzes will be carried out from this massive sequencing data set
 
 |     |     |
 | -- | -- |
-|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019.png)| From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of Quercus macdougalli Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)|
-|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/collecting_material.jpg)| Collecting material (leaves) for DNA extraction |
+|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019.png)|From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)|
