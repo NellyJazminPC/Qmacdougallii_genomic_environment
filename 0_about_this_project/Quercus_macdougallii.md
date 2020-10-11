@@ -15,6 +15,7 @@ This great diversity and endemism represent an important area of opportunity for
 
 |     |     |
 | -- | -- |
+|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Oaks_mark.jpg)|
 |![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Denk_et_al_2017.png)| From the work of [Denk *et al.,* 2017. An Updated Infrageneric Classification of the Oaks: Review of Previous Taxonomic Schemes and Synthesis of Evolutionary Patterns](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2) | 
 ### *Quercus macdougallii*
 
