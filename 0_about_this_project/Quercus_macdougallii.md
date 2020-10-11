@@ -14,9 +14,10 @@ The *Quercus* genus, also known as oaks, is one of the most important groups in 
 This great diversity and endemism represent an important area of opportunity for studies of adaptation in long-lived tree species to environmental variables in the face of climate change, especially since their ability to face rapid environmental changes can indicate functional processes essential for their survival, being an ideal setting for functional genomics studies ([IPCC](https://www.ipcc.ch/); [Naidoo *et al.,* 2019](https://www.frontiersin.org/articles/10.3389/fpls.2019.00273/full)).
 
 |     |     |
-| -- | -- |
-|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Oaks_mark.jpg)|
+| -- | -- | 
 |![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Denk_et_al_2017.png)| From the work of [Denk *et al.,* 2017. An Updated Infrageneric Classification of the Oaks: Review of Previous Taxonomic Schemes and Synthesis of Evolutionary Patterns](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2) | 
+
+![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Oaks_mark.jpg)
 ### *Quercus macdougallii*
 
 The oak *Quercus macdougallii* Martínez (1963), also known as Yaa dua yu ( Zapoteco) and ’Ma kue (Chinanteco) is an **endangered** ([IUCN, 2020](https://www.iucnredlist.org/species/32765/2823034)) and **threatened** ([DOF, 2019](http://www.dof.gob.mx/nota_detalle.php?codigo=5578808&fecha=14/11/2019)) **endemic** species, which has a distribution restricted to the Sierra Juárez also known as Sierra Norte de Oaxaca ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel *et al.,* 2015](https://www.internationaloaksociety.org/content/encinos-de-mexico-new-book-about-mexican-oaks-spanish-0)), and whose populations they maintain a binomial distribution with altitudinal selection ([Anacleto-Carmona, 2015](http://www.unsij.edu.mx/tesis/)).
