@@ -37,7 +37,7 @@ The investigation of **functional genomic variation** allows the identification 
 
 ## Hypothesis
 
-In long-lived tree species, genes associated with an adaptive response to climatic changes have been reported, therefore, it is expected that *Q. macdougallii*, an endemic oak, will present genes associated with environmental variables, such as temperature, precipitation and soil.
+- In long-lived tree species, genes associated with an adaptive response to climatic changes have been reported, therefore, it is expected that *Q. macdougallii*, an endemic oak, will present genes associated with environmental variables, such as temperature, precipitation and soil.
 
 ## Objectives
 
