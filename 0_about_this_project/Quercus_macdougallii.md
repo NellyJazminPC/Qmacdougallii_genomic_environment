@@ -1,10 +1,12 @@
 # Functional genomic variation and its association with environmental variables in *Quercus macdougallii*
 
 
-
 ### Temperate forests
 
 Temperate forests are important **reservoirs of biomass and biodiversity**, in addition to **providing ecological services** and being an indisputable part of the **biocultural heritage** of humankind [(Gil-Pelegrín *et al.,* 2017)](https://link.springer.com/book/10.1007%2F978-3-319-69099-5).
+
+![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Forest_oak_pines.jpg)
+
 
 
 ### Oaks
