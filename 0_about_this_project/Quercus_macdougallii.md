@@ -67,4 +67,17 @@ The following analyzes will be carried out from this massive sequencing data set
 |![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/1method.png)|
 |![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/2method.png) |
 
+From the sequencing data set [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999), *outliers SNPs* will be identified between the two distribution zones of *Q. macdougallii*, north and south, by using bioinformatics programs such as [Stacks](https://catchenlab.life.illinois.edu/stacks/), [FreeBayes](https://bioinformaticsworkbook.org/dataAnalysis/VariantCalling/freebayes-dnaseq-workflow.html#gsc.tab=0), [Bayescan](http://cmpg.unibe.ch/software/BayeScan/) and the packages of [adegenet](http://adegenet.r-forge.r-project.org/files/tutorial-basics.pdf) and [snpstats](https://www.bioconductor.org/packages/release/bioc/html/snpStats.html) in R ([Caldu-Primo *et al.,* 2017](https://www.frontiersin.org/articles/10.3389/fgene.2017.00045/full); [Martins *et al.,* 2018](https://onlinelibrary.wiley.com/doi/full/10.1111/eva.12684); [Pina-Martins *et al.,* 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14497)).
+
+
+Afterwards, the variations found in coding areas will be identified and separated, using two approaches: 
+
+- First, to determine the position of the candidate SNPs, a gene model based on the *Q. lobata* genome will be used ([Sork *et al.,* 2016a](https://www.g3journal.org/content/6/11/3485.short)) and its transcriptome ([Cokus *et al.,* 2015](https://link.springer.com/article/10.1186/s12864-015-1761-4)), through the [BEDTools](https://bedtools.readthedocs.io/en/latest/), [GMAP](https://academic.oup.com/bioinformatics/article/21/9/1859/409207) and [Sim4db](https://academic.oup.com/bioinformatics/article/27/13/1869/185389) programs.
+
+- The second approach will be using a set of genes previously identified in the literature ([Rellstab *et al.,* 2016](https://onlinelibrary.wiley.com/doi/abs/10.1111/mec.13889)) and obtained from public databases (*e.g.* [NCBI](https://www.ncbi.nlm.nih.gov/), [Quercus Portal](https://quercusportal.pierroton.inra.fr/), [Hardwood Genomics Project and Oak Genome Sequencing](https://www.hardwoodgenomics.org/)).
+
+
+To evaluate the environmental variables in the study area that will be used for multivariate analyzes, databases will be analyzed at the national ([CONABIO](http://www.conabio.gob.mx/informacion/gis/) and [CONAGUA](https://www.gob.mx/conagua)) and international ([World Clim](https://www.worldclim.org/)) levels through the [ArcGIS](https://www.arcgis.com/index.html), [QGIS](https://qgis.org/es/site/) and R programs.
+
+
 
