@@ -87,3 +87,9 @@ Then, correlation analyzes will be performed between the identified *SNPs* and t
 The *SNPs* in genes that present a high association with the analyzed variables will be selected as candidates for local adaptation and to evaluate their differential expression, plant material (leaves) will be collected from individuals for mRNA extraction (TRIzol and RNeasy). Likewise, specific primers will be designed using the [Primer 3 v0.4](http://www.bioinformatics.nl/cgi-bin/primer3plus/primer3plus.cgi/) program. Then, the gene expression profile information will be analyzed using the qPCR (quantitative PCR, [for more information](https://www.youtube.com/watch?v=1kvy17ugI4w)) technique .
 
 Finally, depending on the number of genes associated with environmental variables that are analyzed, a possible model of their differential expression will be built ([Ay and Arnosti, 2011](https://www.tandfonline.com/doi/abs/10.3109/10409238.2011.556597)) for *Q. macdougallii*.
+ 
+## Relevance and impact of the project
+
+This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables in natural populations of an oak endemic to Mexico. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. In addition, for the area of ecology and evolutionary biology, this project is an opportunity to identify evolutionary processes that could be affecting the genomic variation of this endemic species and its local adaptation, which can serve as a reference for future studies of oaks endemic to Oaxaca and Mexico, given its importance as the second forest group in Mexico and as an axis group of the temperate forests of the country.
+
+![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Camino_real.jpg)
