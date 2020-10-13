@@ -93,3 +93,7 @@ Finally, depending on the number of genes associated with environmental variable
 This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables in natural populations of an oak endemic to Mexico. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. In addition, for the area of ecology and evolutionary biology, this project is an opportunity to identify evolutionary processes that could be affecting the genomic variation of this endemic species and its local adaptation, which can serve as a reference for future studies of oaks endemic to Oaxaca and Mexico, given its importance as the second forest group in Mexico and as an axis group of the temperate forests of the country.
 
 ![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Camino_real.jpg)
+
+
+With Sustainable Development Goal 15: Manage forests in a sustainable way and stop the loss of biodiversity. Since this oak is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management.
+With objective 13.b, since this study hopes to contribute to increase the capacity for planning and effective management in relation to management and conservation plans in the face of climate change.
