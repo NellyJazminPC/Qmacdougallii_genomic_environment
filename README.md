@@ -4,7 +4,7 @@ In this repository you can find some analysis of population genomics, potential 
 
 
 
-# Gráficas
+# Graphs
 
 In this web site [Data to Viz](https://www.data-to-viz.com/) you can find different types of graphics, and how to do it in R and Python
 
