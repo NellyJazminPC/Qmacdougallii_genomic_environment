@@ -69,6 +69,11 @@ The following analyzes will be carried out from this massive sequencing data set
 
 From the sequencing data set [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999), *outliers SNPs* will be identified between the two distribution zones of *Q. macdougallii*, north and south, by using bioinformatics programs such as [Stacks](https://catchenlab.life.illinois.edu/stacks/), [FreeBayes](https://bioinformaticsworkbook.org/dataAnalysis/VariantCalling/freebayes-dnaseq-workflow.html#gsc.tab=0), [Bayescan](http://cmpg.unibe.ch/software/BayeScan/) and the packages of [adegenet](http://adegenet.r-forge.r-project.org/files/tutorial-basics.pdf) and [snpstats](https://www.bioconductor.org/packages/release/bioc/html/snpStats.html) in R ([Caldu-Primo *et al.,* 2017](https://datadryad.org/stash/dataset/doi:10.5061/dryad.j2n8q); [Martins *et al.,* 2018](https://datadryad.org/stash/dataset/doi:10.5061/dryad.b56tm0t); [Pina-Martins *et al.,* 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14497)).
 
+|     | 
+| -- |
+|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019_structure.png)| |
+|From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)| 
+
 
 Afterwards, the variations found in coding areas will be identified and separated, using two approaches: 
 
@@ -94,6 +99,7 @@ This work will constitute the first step to study the local adaptation in candid
 
 ![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Camino_real.jpg)
 
+This project is close to what goal 15 of The Sustainable Development Goals (SDG) proposed by the United Nations (UN) (https://www.un.org/sustainabledevelopment/es/).
+Because the information generated in this project is expected to help in the management of forests in a sustainable way and stop the loss of biodiversity that can occur due to lack of information on key species in the functioning of ecosystems.
 
-With Sustainable Development Goal 15: Manage forests in a sustainable way and stop the loss of biodiversity. Since this oak is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management.
-With objective 13.b, since this study hopes to contribute to increase the capacity for planning and effective management in relation to management and conservation plans in the face of climate change.
+Also, given that this oak tree is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management, it is important to promote multidisciplinary projects in order to increase the capacity for planning and effective management in relation to the management and conservation plans in the face of climate change, as proposed in Goal 13.b of the SDG.
