@@ -6,9 +6,6 @@ In this repository you can find some analysis of population genomics, potential 
 
 # Gráficas
 
-En este sitio web [Data to Viz](https://www.data-to-viz.com/) puede ayudarnos a conocer diferentes tipos de gráficas y cuál o cuáles podrían ser mejores para la visualización de nuestros datos.
-También, contiene algunos scripts básicos para saber como hacerlos en R y Python.
+In this web site [Data to Viz](https://www.data-to-viz.com/) you can find different types of graphics, and how to do it in R and Python
 
-
-
-Para repasar rápidamente algunos conceptos de estadística, [aquí](https://seeing-theory.brown.edu/es.html).
+To quickly review some statistical concepts, [here](https://seeing-theory.brown.edu/es.html).
