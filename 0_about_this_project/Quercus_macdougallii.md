@@ -37,9 +37,17 @@ Recently, genomic variation has been analyzed from 8,186 *SNPs* (**single nucleo
 
 A high specificity to certain environmental conditions such as soil type has also been detected, since the species is only found in two types, which are only present in 0.5% (humic acrisol) and 2.4% (vertic luvisol) in the Mexican territory, which highlights the high specificity of this endemic species ([WRB, 2015](http://www.fao.org/3/i3794es/I3794es.pdf); [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)).
 
-|     |     |
-| -- | -- |
-|![](Pozuelos_Arbol-sacrificio_sagrado.jpg)|![](Qmacd.jpg)| 
+
+<p align="center">
+
+<img src="Pozuelos_Arbol-sacrificio_sagrado.jpg" width="400"/>
+
+</p>
+<p align="center">
+
+<img src="Qmacd.jpg" width="400"/>
+
+</p> 
 
 ### Functional genomics and environment
 
@@ -86,9 +94,14 @@ The following analyzes will be carried out from this massive sequencing data set
 
 From the sequencing data set [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999), *outliers SNPs* will be identified between the two distribution zones of *Q. macdougallii*, north and south, by using bioinformatics programs such as [Stacks](https://catchenlab.life.illinois.edu/stacks/), [FreeBayes](https://bioinformaticsworkbook.org/dataAnalysis/VariantCalling/freebayes-dnaseq-workflow.html#gsc.tab=0), [Bayescan](http://cmpg.unibe.ch/software/BayeScan/) and the packages of [adegenet](http://adegenet.r-forge.r-project.org/files/tutorial-basics.pdf) and [snpstats](https://www.bioconductor.org/packages/release/bioc/html/snpStats.html) in R ([Caldu-Primo *et al.,* 2017](https://datadryad.org/stash/dataset/doi:10.5061/dryad.j2n8q); [Martins *et al.,* 2018](https://datadryad.org/stash/dataset/doi:10.5061/dryad.b56tm0t); [Pina-Martins *et al.,* 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14497)).
 
+<p align="center">
+
+<img src="Pacheco-Cruz_2019_structure.png" width="500"/>
+
+</p>
+
 |     | 
 | -- |
-|![](Pacheco-Cruz_2019_structure.png)| |
 |From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)| 
 
 
