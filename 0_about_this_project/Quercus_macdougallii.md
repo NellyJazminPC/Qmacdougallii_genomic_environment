@@ -40,12 +40,12 @@ A high specificity to certain environmental conditions such as soil type has als
 
 <p align="center">
 
-<img src="Pozuelos_Arbol-sacrificio_sagrado.jpg" width="400"/>
+<img src="Pozuelos_Arbol-sacrificio_sagrado.jpg" width="600"/>
 
 </p>
 <p align="center">
 
-<img src="Qmacd.jpg" width="400"/>
+<img src="Qmacd.jpg" width="600"/>
 
 </p> 
 
