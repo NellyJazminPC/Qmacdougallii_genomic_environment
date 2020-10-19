@@ -5,7 +5,11 @@
 
 Temperate forests are important **reservoirs of biomass and biodiversity**, in addition to **providing ecological services** and being an indisputable part of the **biocultural heritage** of humankind [(Gil-Pelegrín *et al.,* 2017)](https://link.springer.com/book/10.1007%2F978-3-319-69099-5).
 
-![ ](Forest_oak_pines.jpg)
+<p align="center">
+
+<img src="Forest_oak_pines.jpg" width="600"/>
+
+</p>
 
 ### Oaks
 
@@ -13,11 +17,16 @@ The *Quercus* genus, also known as oaks, is one of the most important groups in 
 
 |     |     |
 | -- | -- | 
-|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Denk_et_al_2017.png)| From the work of [Denk *et al.,* 2017. An Updated Infrageneric Classification of the Oaks: Review of Previous Taxonomic Schemes and Synthesis of Evolutionary Patterns](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2) | 
+|![ ](Denk_et_al_2017.png)| From the work of [Denk *et al.,* 2017. An Updated Infrageneric Classification of the Oaks: Review of Previous Taxonomic Schemes and Synthesis of Evolutionary Patterns](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2) | 
 
 This great diversity and endemism represent an important area of opportunity for studies of adaptation in long-lived tree species to environmental variables in the face of climate change, especially since their ability to face rapid environmental changes can indicate functional processes essential for their survival, being an ideal setting for functional genomics studies ([IPCC](https://www.ipcc.ch/); [Naidoo *et al.,* 2019](https://www.frontiersin.org/articles/10.3389/fpls.2019.00273/full)).
 
-![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Oaks_mark.jpg)
+<p align="center">
+
+<img src="Oaks_mark.jpg" width="600"/>
+
+</p>
+
 ### *Quercus macdougallii*
 
 The oak *Quercus macdougallii* Martínez (1963), also known as *Yaa dua yu* (Zapoteco) and *’Ma kue* (Chinanteco) is an **endangered** ([IUCN, 2020](https://www.iucnredlist.org/species/32765/2823034)) and **threatened** ([DOF, 2019](http://www.dof.gob.mx/nota_detalle.php?codigo=5578808&fecha=14/11/2019)) **endemic** species, which has a distribution restricted to the Sierra Juárez also known as Sierra Norte de Oaxaca ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel *et al.,* 2015](https://www.internationaloaksociety.org/content/encinos-de-mexico-new-book-about-mexican-oaks-spanish-0)), and whose populations they maintain a binomial distribution with altitudinal selection ([Anacleto-Carmona, 2015](http://www.unsij.edu.mx/tesis/)).
@@ -30,7 +39,7 @@ A high specificity to certain environmental conditions such as soil type has als
 
 |     |     |
 | -- | -- |
-|![https://losmundosdemexico.com/ecoturixtlan/](https://losmundosdemexico.com/wp-content/uploads/2019/06/IMG_9082-1024x683.jpg)|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Qmacd.jpg)| 
+|![]()|![](Qmacd.jpg)| 
 
 ### Functional genomics and environment
 
@@ -38,7 +47,11 @@ The increasing availability of **genomic information** for the *Quercus* genus h
 
 The investigation of **functional genomic variation** allows the identification of genes whose function could be linked to aspects of **growth**, **development**, **differentiation** and **defense** in plants ([Müller and Gailing, 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/plb.13008)). Studying the **association of these candidate genes with environmental variables**, such as temperature, precipitation and soil ([Müller and Gailing, 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/plb.13008); [Yang *et al.,* 2018](https://www.frontiersin.org/articles/10.3389/fpls.2018.01534/full)) can help to improve the understanding of the genetic expression of the species, of its adaptive genetics variation and the responses of their populations to a changing climate. Likewise, these investigations can contribute to improve the conservation plans of species highly restricted and with specific requirements for their growth, permanence and survival, such as **_Q. macdougallii_**.
 
-![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/functional_genomics.png)
+<p align="center">
+
+<img src="functional_genomics.png" width="600"/>
+
+</p>
 
 ## Hypothesis
 
@@ -46,7 +59,11 @@ The investigation of **functional genomic variation** allows the identification 
 
 ## Objectives
 
-![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Objectives_overall_specific.png)
+<p align="center">
+
+<img src="Objectives_overall_specific.png" width="700"/>
+
+</p>
 
 ## Materials and methods
 
@@ -56,7 +73,7 @@ In the work of [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S
 
 |     |     |
 | -- | -- |
-|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019.png)| |
+|![](Pacheco-Cruz_2019.png)| |
 |From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)| |
 
 
@@ -64,14 +81,14 @@ In the work of [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S
 The following analyzes will be carried out from this massive sequencing data set as well as the georeferencing data of each of its individuals collected.
 |     | 
 | -- | 
-|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/1method.png)|
-|![ ](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/2method.png) |
+|![ ](1method.png)|
+|![ ](2method.png) |
 
 From the sequencing data set [Pacheco-Cruz (2019)](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999), *outliers SNPs* will be identified between the two distribution zones of *Q. macdougallii*, north and south, by using bioinformatics programs such as [Stacks](https://catchenlab.life.illinois.edu/stacks/), [FreeBayes](https://bioinformaticsworkbook.org/dataAnalysis/VariantCalling/freebayes-dnaseq-workflow.html#gsc.tab=0), [Bayescan](http://cmpg.unibe.ch/software/BayeScan/) and the packages of [adegenet](http://adegenet.r-forge.r-project.org/files/tutorial-basics.pdf) and [snpstats](https://www.bioconductor.org/packages/release/bioc/html/snpStats.html) in R ([Caldu-Primo *et al.,* 2017](https://datadryad.org/stash/dataset/doi:10.5061/dryad.j2n8q); [Martins *et al.,* 2018](https://datadryad.org/stash/dataset/doi:10.5061/dryad.b56tm0t); [Pina-Martins *et al.,* 2019](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.14497)).
 
 |     | 
 | -- |
-|![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Pacheco-Cruz_2019_structure.png)| |
+|![](Pacheco-Cruz_2019_structure.png)| |
 |From the work of [Pacheco-Cruz, 2019. Genomic variation and potential distribution of *Quercus macdougallii* Martínez, a species endemic to Oaxaca](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999)| 
 
 
@@ -97,13 +114,13 @@ Finally, depending on the number of genes associated with environmental variable
 
 This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables in natural populations of an oak endemic to Mexico. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. In addition, for the area of ecology and evolutionary biology, this project is an opportunity to identify evolutionary processes that could be affecting the genomic variation of this endemic species and its local adaptation, which can serve as a reference for future studies of oaks endemic to Oaxaca and Mexico, given its importance as the second forest group in Mexico and as an axis group of the temperate forests of the country.
 
-![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/Camino_real.jpg)
+![](Camino_real.jpg)
 
 This project is close to what goal 15 of [The Sustainable Development Goals (SDG)](https://www.un.org/sustainabledevelopment/es/) proposed by the United Nations (UN).
 Because the information generated in this project is expected to help in the management of forests in a sustainable way and stop the loss of biodiversity that can occur due to lack of information on key species in the functioning of ecosystems.
 
 Also, given that this oak tree is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management, it is important to promote multidisciplinary projects in order to increase the capacity for planning and effective management in relation to the management and conservation plans in the face of climate change, as proposed in Goal 13.b of the SDG.
 
-![](https://github.com/NellyJazminPC/Qmacdougallii_genomics_and_environment/blob/main/0_about_this_project/metadatos/sdgs.png)
+![](sdgs.png)
 
 
