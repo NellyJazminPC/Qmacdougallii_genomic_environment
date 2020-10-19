@@ -69,7 +69,7 @@ The investigation of **functional genomic variation** allows the identification 
 
 <p align="center">
 
-<img src="Objectives_overall_specific.png" width="700"/>
+<img src="Objectives_overall_specific.png" width="800"/>
 
 </p>
 
