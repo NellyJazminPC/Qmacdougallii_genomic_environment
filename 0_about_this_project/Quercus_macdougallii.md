@@ -39,7 +39,7 @@ A high specificity to certain environmental conditions such as soil type has als
 
 |     |     |
 | -- | -- |
-|![]()|![](Qmacd.jpg)| 
+|![](Pozuelos_Arbol-sacrificio_sagrado.jpg)|![](Qmacd.jpg)| 
 
 ### Functional genomics and environment
 
@@ -114,13 +114,19 @@ Finally, depending on the number of genes associated with environmental variable
 
 This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables in natural populations of an oak endemic to Mexico. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. In addition, for the area of ecology and evolutionary biology, this project is an opportunity to identify evolutionary processes that could be affecting the genomic variation of this endemic species and its local adaptation, which can serve as a reference for future studies of oaks endemic to Oaxaca and Mexico, given its importance as the second forest group in Mexico and as an axis group of the temperate forests of the country.
 
-![](Camino_real.jpg)
+<p align="center">
+
+<img src="Camino_real.jpg" width="600"/>
+
+</p>
 
 This project is close to what goal 15 of [The Sustainable Development Goals (SDG)](https://www.un.org/sustainabledevelopment/es/) proposed by the United Nations (UN).
 Because the information generated in this project is expected to help in the management of forests in a sustainable way and stop the loss of biodiversity that can occur due to lack of information on key species in the functioning of ecosystems.
 
 Also, given that this oak tree is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management, it is important to promote multidisciplinary projects in order to increase the capacity for planning and effective management in relation to the management and conservation plans in the face of climate change, as proposed in Goal 13.b of the SDG.
 
-![](sdgs.png)
+<p align="center">
 
+<img src="sdgs.png" width="500"/>
 
+</p>
