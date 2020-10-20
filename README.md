@@ -6,13 +6,12 @@
 In this repository you can find some analysis of population genomics, potential distribution, the identification of outliers SNPs and candidate genes to local adaptation.
 
 
-## General directory structure
-- bin
-- [data][Data specifications]
-- metadata
-- figures
-- archive
-
+## General repository structure
+- [bin](/bin)
+- [data](/data)
+- [metadata](/metadata)
+- [figures](/figures)
+- [archive](/archives)
 
 
 ### Data specifications
