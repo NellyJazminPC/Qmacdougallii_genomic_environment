@@ -6,7 +6,14 @@
 In this repository you can find some analysis of population genomics, potential distribution and the identification of *outliers SNPs* in candidate genes to local adaptation for an oak endemic to México.
 
 ---
-<center> GENERAL REPOSITORY STRUCTURE </center>
+<p center> GENERAL REPOSITORY STRUCTURE 
+</p>
+
+<P ALIGN=center> **GENERAL REPOSITORY STRUCTURE**
+  
+<H1 align=center> GENERAL REPOSITORY STRUCTURE
+</H1>  
+  
 
 - [**info_project**](/info_project)
 - [**data**](/data)
