@@ -33,7 +33,7 @@ Also, this project is close to two goals of [The Sustainable Development Goals (
 For more information go to [info_project/Qmacdougallii.md](/info_project/Qmacdougallii.md)
 
 ---
-## Data specifications (IN PROCESS)
+## Data specifications (IN PROCESS UNTIL PUBLICATION)
 
 ### [**data**](/data)
 
