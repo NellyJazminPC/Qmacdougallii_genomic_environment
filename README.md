@@ -11,7 +11,7 @@ In this repository you can find some analysis of population genomics, potential 
 - [**data**](/data)
 - [**metadata**](/metadata)
 - [**bin**](/bin)
-- [**figures**](/figures)
+- [**output**](/output)
 - [**archive**](/archives)
 
 ---
@@ -37,16 +37,17 @@ For more information go to [info_project/Qmacdougallii.md](/info_project/Qmacdou
 
 ### [**data**](/data)
 
-Este directorio contendrá datos para los análisis genómicos, para la identificación de SNPs outliers para la especie y para la identificación de estos en posibles genes candidatos a adaptación local. Por otra parte, también contendrá datos de variables climáticas y ambientales 
+This directory will contain the data for genomic and environmental analyzes (climate and soil). 
 
- - **genomic** : El cual contiene secuencias de genes candidatos a adaptación local previamente identificados en la literatura y las secuencias obtenidas del trabajo de Pacheco-Cruz, 2019 así como el archivo VCF (variant call format) de los SNPs identificados.
-    - **candidate_genes** :secuencias de genes previamente identificados y descritos en la literatura
-    - **qmacd**           :secuencias de 80 individuos de la especie Q. macdougallii obtenidos a partir del trabajo de Pacheco-Cruz, 2019.
-    - **outlier_SNPs**    :identificación de SNPs outliers para la especie Q. macdougallii a partir de las secuencias del trabajo de Pacheco-Cruz, 2019.
+ - **genomic** : This directory contains sequences of candidate genes for local adaptation previously identified in the literature and the sequences obtained from the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999). As well as the VCF file (variant call format) of the identified SNPs.
+ 
+    - **candidate_genes** : Sequences of genes previously identified and described in the literature as candidate genes for local adaptation in trees
+    - **qmacd**           : Sequences of 80 individuals of the species *Q. macdougallii* obtained from the work of Pacheco-Cruz, 2019.
+    - **outlier_SNPs**    : Identification of **_outliers SNPs_** for *Q. macdougallii*.
 
 
- - **climate** : El cual contiene las capas de las tres principales bases de datos públicas a utilizar
-    - **wc** : Contiene las capas del sitio [WorldClim](https://www.worldclim.org/) con datos para el escenario actual y para cuatro escenarios bajo efectos de cambio climático
+ - **climate** : Which contains the *shapes* and data of three main public databases to use, WorldClim, CONABIO and CONAGUA.
+    - **wc** : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.
         - *actual*
         - *2050_4.5*
         - *2050_8.5*
@@ -58,7 +59,7 @@ Este directorio contendrá datos para los análisis genómicos, para la identifi
      - **conabio**
  
  
- - **soil**    : Contiene los datos de las variables analizadas (contenido de C, P, N)
+ - **soil**    : Contains the data of the analyzed variables (content of C, P, N)
 
 
 
@@ -68,14 +69,14 @@ Este directorio contendrá datos para los análisis genómicos, para la identifi
 
 ### [**metadata**](/metadata)
 
-Este directorio contiene las coordenadas geográficas y la altitud de cada uno de los 80 individuos colectados y analizados en el trabajo de Pacheco-Cruz, 2019.
+This directory contains the geographical coordinates and the altitude of each of the 80 individuals collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
 
 ---
 ## Scripts
 
 ### [**bin**](/bin)
 
-Este directorio contiene los scripts utilizados para realizar 
+This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
 
 1.1 
 1.2
@@ -88,11 +89,11 @@ Este directorio contiene los scripts utilizados para realizar
 
 
 ---
-## Figures
+## The output: figures and final report
 
-### [**figures**](/figures)
+### [**output**](/output)
 
-Este directorio contiene las figuras generadas a partir de los scripts y los datos
+Contains the figures generated from the scripts and the data, as well as a final report of everything obtained.
 
 ---
 
