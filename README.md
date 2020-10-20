@@ -31,7 +31,7 @@ In this repository you can find some analysis of population genomics, potential 
   Specific objectives for this project:
   - 1.- Identify outlier SNPs that are in coding regions
   - 2.- Analyze this set of outlier SNPs with multivariate models to detect the presence of correlations between this and a set of environmental variables.
-  - 3. Validate the expression of candidate genes identified through analysis of differential expression.
+  - 3.- Validate the expression of candidate genes identified through analysis of differential expression.
 
 <p align="center">
 
