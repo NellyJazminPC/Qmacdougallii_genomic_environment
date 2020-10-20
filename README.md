@@ -6,7 +6,8 @@
 In this repository you can find some analysis of population genomics, potential distribution, the identification of outliers SNPs and candidate genes to local adaptation.
 
 ---
-## General repository structure
+## ------------- GENERAL REPOSITORY STRUCTURE -------------
+
 - [**info_project**](/info_project)
 - [**data**](/data)
 - [**metadata**](/metadata)
@@ -16,7 +17,9 @@ In this repository you can find some analysis of population genomics, potential 
 
 ---
 
-##  [info_project](/info_project)  
+## ------------- DETAILED REPOSITORY STRUCTURE -------------
+
+## [info_project](/info_project)  
 
 
 **Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Mexico, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
