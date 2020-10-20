@@ -15,11 +15,11 @@ In this repository you can find some analysis of population genomics, potential 
 - [**archive**](/archives)
 
 ---
-## Information about this project  
 
-### [info_project](/info_project)
+##  [info_project](/info_project)  
 
-This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Mexico, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
+
+**Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Mexico, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
 
 Also, this project is close to two goals of [The Sustainable Development Goals (SDG)](https://sdgs.un.org/goals) proposed by the United Nations (UN). For the goal 15, because the information generated in this project is expected to help in the management of forests in a sustainable way and stop the loss of biodiversity that can occur due to lack of information on key species in the functioning of ecosystems. And for the goal 13, given that this oak is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management.
 
@@ -33,8 +33,9 @@ Also, this project is close to two goals of [The Sustainable Development Goals (
 For more information go to [info_project/Qmacdougallii.md](/info_project/Qmacdougallii.md)
 
 ---
-## [**data**](/data) (IN PROCESS UNTIL PUBLICATION)
+## [**data**](/data) 
 
+**(IN PROCESS UNTIL PUBLICATION)**
 
 This directory will contain the data for genomic and environmental analyzes (climate and soil). 
 
