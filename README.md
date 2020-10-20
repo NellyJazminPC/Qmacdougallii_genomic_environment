@@ -33,9 +33,8 @@ Also, this project is close to two goals of [The Sustainable Development Goals (
 For more information go to [info_project/Qmacdougallii.md](/info_project/Qmacdougallii.md)
 
 ---
-## Data specifications (IN PROCESS UNTIL PUBLICATION)
+## [**data**](/data) (IN PROCESS UNTIL PUBLICATION)
 
-### [**data**](/data)
 
 This directory will contain the data for genomic and environmental analyzes (climate and soil). 
 
@@ -65,16 +64,14 @@ This directory will contain the data for genomic and environmental analyzes (cli
 
 
 ---        
-## Otros datos importantes
-
-### [**metadata**](/metadata)
+## [**metadata**](/metadata)
 
 This directory contains the geographical coordinates and the altitude of each of the 80 individuals collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
 
 ---
-## Scripts
 
-### [**bin**](/bin)
+
+## [**bin**](/bin)
 
 This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
 
@@ -89,9 +86,9 @@ This directory contains the scripts used to perform the analysis of functional g
 
 
 ---
-## The output: figures and final report
 
-### [**output**](/output)
+
+## [**output**](/output)
 
 Contains the figures generated from the scripts and the data, as well as a final report of everything obtained.
 
