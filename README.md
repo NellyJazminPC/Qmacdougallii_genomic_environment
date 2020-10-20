@@ -3,7 +3,7 @@
 > # ******************** **UNDER CONSTRUCTION** ********************
 ---
 
-In this repository you can find some analysis of population genomics, potential distribution, the identification of outliers SNPs and candidate genes to local adaptation.
+In this repository you can find some analysis of population genomics, potential distribution and the identification of *outliers SNPs* in candidate genes to local adaptation for an oak endemic to México.
 
 ---
 ## ---------------------   GENERAL REPOSITORY STRUCTURE ---------------------
@@ -25,10 +25,13 @@ In this repository you can find some analysis of population genomics, potential 
 **Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Mexico, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
 
 
-  Overall objective:
+  Overall objective for this project: 
+  - Analyze the functional genomic variation of *Quercus macdougallii* to identify genes associated with environmental variables
   
-  Specific objectives:
-
+  Specific objectives for this project:
+  - 1.- Identify outlier SNPs that are in coding regions
+  - 2.- Analyze this set of outlier SNPs with multivariate models to detect the presence of correlations between this and a set of environmental variables.
+  - 3. Validate the expression of candidate genes identified through analysis of differential expression.
 
 <p align="center">
 
@@ -83,14 +86,13 @@ This directory contains the geographical coordinates and the altitude of each of
 
 This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
 
-1.1 
-1.2
-1.3 
-1.7
+**1. Genomic analysis**
 
-2.1
-2.2
-2.3
+
+**2. Environment analysis**
+2.1_clean_data.R
+2.2_value_extraction.R
+
 
 
 ---
