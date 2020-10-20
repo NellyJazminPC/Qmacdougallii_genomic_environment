@@ -136,7 +136,7 @@ This work will constitute the first step to study the local adaptation in candid
 This project is close to what goal 15 of [The Sustainable Development Goals (SDG)](https://www.un.org/sustainabledevelopment/es/) proposed by the United Nations (UN).
 Because the information generated in this project is expected to help in the management of forests in a sustainable way and stop the loss of biodiversity that can occur due to lack of information on key species in the functioning of ecosystems.
 
-Also, given that this oak tree is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management, it is important to promote multidisciplinary projects in order to increase the capacity for planning and effective management in relation to the management and conservation plans in the face of climate change, as proposed in Goal 13.b of the SDG.
+Also, given that this oak is located in an area where indigenous communities try to conserve the biodiversity of their forests and at the same time maintain sustainable forest management, it is important to promote multidisciplinary projects in order to increase the capacity for planning and effective management in relation to the management and conservation plans in the face of climate change, as proposed in Goal 13.b of the SDG.
 
 <p align="center">
 
