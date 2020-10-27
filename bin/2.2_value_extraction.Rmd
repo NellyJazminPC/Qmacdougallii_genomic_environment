@@ -1,6 +1,6 @@
 ---
 title: "Climate data processing"
-output: html_notebook
+output: rmarkdown::github_document
 ---
 
 Para el procesamiento y extracción de los valores a partir de las capas ASCII.
@@ -69,4 +69,3 @@ presencias_clima3
 #Exportar los resultados en un archivo .csv para guardar el archivo de puntos
 write.csv(presencias_clima3, file = "../metadata/datos_extraccion_worldClim.csv")
 ```
-
