@@ -2,3 +2,5 @@ data/climate
 data/soil
 data/genomic
 archive/
+.Rhistory
+.RData

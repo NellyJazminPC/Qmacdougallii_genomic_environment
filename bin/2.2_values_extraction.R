@@ -14,10 +14,10 @@ library(corrplot)
 #install.packages("usdm")
 
 #Directorio de trabajo
-setwd("/media/nel_pc/n311_pc/MAPA_QUERCUS_MAC/worldclim/bioclim_cortes/")###directorio de las capas climaticas del presente
+setwd("")###directorio de las capas climaticas del presente
 
 #Cargar capas
-pca_path <- list.files(".",pattern = "*.asc$",full.names = T)###crea el stack de las 19 variables climaticas del presente
+pca_path <- list.files(".",pattern = "../data/climate/wc/actual/*.asc$",full.names = T)###crea el stack de las 19 variables climaticas del presente
 capas_presente<- stack(pca_path)
 
 #Cargar la base de datos
