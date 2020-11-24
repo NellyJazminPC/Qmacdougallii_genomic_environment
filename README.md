@@ -85,7 +85,7 @@ This directory will contain the data for genomic and environmental analyzes (cli
 ---        
 ## [**metadata**](/metadata)
 
-This directory contains the geographical coordinates and the altitude of each of the 80 individuals collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
+This directory contains the `.csv` files of geographical coordinates and altitude of each of the 80 individuals collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
 
 ---
 
