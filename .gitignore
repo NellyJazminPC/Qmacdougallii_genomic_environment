@@ -4,3 +4,6 @@ data/genomic
 archive/
 .Rhistory
 .RData
+.Rproj.user
+bin/bin.Rproj
+bin/prueba_error_instalacion_paquetes.R
