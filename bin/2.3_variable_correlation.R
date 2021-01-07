@@ -39,7 +39,7 @@ presencias_clima3 <- na.omit(presencias_clima2)## omite mis datos de presencia s
 #setwd("./limpios")##carpeta donde guardar el archivo .csv
 write.csv(presencias_clima3[,1:3], file = "q_macd_todos_puntos_limpio.csv") ### para guardar el archivo de puntos
 
-### Matriz de colinearidad y estimacion del Factor de inflacion de Varianza (VIF)
+### Matriz de colinearidad
 cormatriz <- cor(presencias_clima3[,4:22])#Definir cu?les son las columnas con las variables para hacer la correlaci?n (de la 1 a la 19)
 
 png("correlacion_puntos_plot/Q_macdougallii_todos_puntos.png")
