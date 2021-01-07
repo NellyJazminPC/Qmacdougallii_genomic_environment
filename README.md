@@ -55,12 +55,11 @@ This directory will contain the data for genomic and environmental analyzes (cli
 
  - **genomic** : This directory contains sequences of candidate genes for local adaptation previously identified in the literature and the sequences obtained from the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999). As well as the VCF file (variant call format) of the identified SNPs.
  
-**snps_qmacd.vcf**
+   *snps_qmacd.vcf*
 
 
  - **climate** : Which contains the *shapes* and data of three main public databases to use.
-    - **wc** : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.
-- *actual, 2050_4.5, 2050_8.5, 2070_4.5, 2070_8.5*
+    - *wc* : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.*actual, 2050_4.5, 2050_8.5, 2070_4.5, 2070_8.5*
         
 BIO1 = Annual Mean Temperature
 BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
@@ -82,7 +81,7 @@ BIO17 = Precipitation of Driest Quarter
 BIO18 = Precipitation of Warmest Quarter   
 BIO19 = Precipitation of Coldest Quarter
      
-- **conabio** : Contains the files in .shape format, obtained from the CONABIO portal http://geoportal.conabio.gob.mx/
+- *conabio* : Contains the files in .shape format, obtained from the CONABIO portal http://geoportal.conabio.gob.mx/
 
 EXL = Existence of firewood in Mexico at the municipal level   
 EXP = Exposure   
@@ -95,7 +94,7 @@ ELE = Digital Elevation Model
 HGE = Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)   
 TEM = Annual mean temperature
  
- - **soil**    : Contains the data of the analyzed variables (content of C, P, N)
+ - *soil*    : Contains the data of the analyzed variables (content of C, P, N)
 
 
 ---        
