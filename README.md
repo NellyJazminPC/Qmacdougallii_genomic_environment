@@ -68,35 +68,35 @@ This directory will contain the data for genomic and environmental analyzes (cli
         
 BIO1 = Annual Mean Temperature
 BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
-BIO3 = Isothermality (BIO2 / BIO7) (× 100)
-BIO4 = Temperature Seasonality (standard deviation × 100)
-BIO5 = Max Temperature of Warmest Month
-BIO6 = Min Temperature of Coldest Month
-BIO7 = Temperature Annual Range (BIO5-BIO6)
-BIO8 = Mean Temperature of Wettest Quarter
-BIO9 = Mean Temperature of Driest Quarter
-BIO10 = Mean Temperature of Warmest Quarter
-BIO11 = Mean Temperature of Coldest Quarter
-BIO12 = Annual Precipitation
-BIO13 = Precipitation of Wettest Month
-BIO14 = Precipitation of Driest Month
-BIO15 = Precipitation Seasonality (Coefficient of Variation)
-BIO16 = Precipitation of Wettest Quarter
-BIO17 = Precipitation of Driest Quarter
-BIO18 = Precipitation of Warmest Quarter
+BIO3 = Isothermality (BIO2 / BIO7) (× 100)    
+BIO4 = Temperature Seasonality (standard deviation × 100)   
+BIO5 = Max Temperature of Warmest Month   
+BIO6 = Min Temperature of Coldest Month   
+BIO7 = Temperature Annual Range (BIO5-BIO6)   
+BIO8 = Mean Temperature of Wettest Quarter    
+BIO9 = Mean Temperature of Driest Quarter   
+BIO10 = Mean Temperature of Warmest Quarter   
+BIO11 = Mean Temperature of Coldest Quarter   
+BIO12 = Annual Precipitation   
+BIO13 = Precipitation of Wettest Month   
+BIO14 = Precipitation of Driest Month   
+BIO15 = Precipitation Seasonality (Coefficient of Variation)    
+BIO16 = Precipitation of Wettest Quarter   
+BIO17 = Precipitation of Driest Quarter   
+BIO18 = Precipitation of Warmest Quarter   
 BIO19 = Precipitation of Coldest Quarter
      
 - **conabio** : Contains the files in .shape format, obtained from the CONABIO portal http://geoportal.conabio.gob.mx/
 
-EXL = Existence of firewood in Mexico at the municipal level
-EXP = Exposure
-PRE = Average annual precipitation
-RHS = Soil moisture regimes
-ACE = Modified specific catchment area (accumulation of water due to surface runoff)
-PDT = Pending
-EDA = Edaphology (soil type)
-ELE = Digital Elevation Model
-HGE = Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)
+EXL = Existence of firewood in Mexico at the municipal level   
+EXP = Exposure   
+PRE = Average annual precipitation   
+RHS = Soil moisture regimes   
+ACE = Modified specific catchment area (accumulation of water due to surface runoff)   
+PDT = Pending   
+EDA = Edaphology (soil type)   
+ELE = Digital Elevation Model   
+HGE = Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)   
 TEM = Annual mean temperature
  
  - **soil**    : Contains the data of the analyzed variables (content of C, P, N)
@@ -116,19 +116,20 @@ This directory contains the `.csv` file of geographical coordinates, altitude an
 
 This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
 
-**1. Genomic analysis** <br> 1.1
-1.0_genomic_analysis.R
+**1. Genomic analysis** <br>
+[1.0_genomic_analysis.R](/bin/1.0_genomic_analysis.R)
+   
+**2. Environment analysis**     
+[2.0_environment_analysis.R](bin/2.0_environment_analysis.R)   
+[2.1_clean_data.R](bin/2.1_clean_data.R)   
+[2.2_value_extraction.R](bin/2.2_value_extraction.R)   
+[2.3_correlation.R](bin/2.3_correlation.R)   
 
-**2. Environment analysis**  
-2.0_environment_analysis.R
-2.1_clean_data.R
-2.2_value_extraction.R
-2.3_correlation.R
-**3. GradientForest**
-3.0_gradientForest.R
-3.1_all_SNPs.R
-3.2_clim_associated_SNPs.R
-3.3_temp_associated_SNPs_all_clim_var.R
+**3. GradientForest**  
+[3.0_gradientForest.R](bin/3.0_gradientForest.R)   
+[3.1_all_SNPs.R](bin/3.1_all_SNPs.R)   
+[3.2_clim_associated_SNPs.R](bin/3.2_clim_associated_SNPs.R)   
+[3.3_temp_associated_SNPs_all_clim_var.R](bin/3.3_temp_associated_SNPs_all_clim_var.R)
 
 ---
 
