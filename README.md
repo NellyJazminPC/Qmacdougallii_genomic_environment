@@ -112,7 +112,7 @@ This directory contains the `.csv` file of geographical coordinates, altitude an
 This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
 
 **1. Genomic analysis** <br>
-[1.0_genomic_analysis.R](/bin/1.0_genomic_analysis.R)
+[1.0_genomic_analysis.R]
    
 **2. Environment analysis**     
 [2.0_environment_analysis.R](bin/2.0_environment_analysis.R)   
