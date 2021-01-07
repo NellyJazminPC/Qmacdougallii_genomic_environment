@@ -1,16 +1,12 @@
 # *Quercus macdougallii*: functional genomics and its association with environmental variables
 ---
-> # ***************** **UNDER CONSTRUCTION** ******************
+> # *************** **UNDER CONSTRUCTION** ****************
 ---
 
 In this repository you can find some analysis of population genomics, potential distribution and the identification of *outliers SNPs* in candidate genes to local adaptation for an oak endemic to México.
 
 ---
-<p center> GENERAL REPOSITORY STRUCTURE 
-</p>
 
-<P ALIGN=center> **GENERAL REPOSITORY STRUCTURE**
-  
 <H1 align=center> GENERAL REPOSITORY STRUCTURE
 </H1>  
   
@@ -29,7 +25,7 @@ In this repository you can find some analysis of population genomics, potential 
 ## [info_project](/info_project)  
 
 
-**Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Mexico, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
+**Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Oaxaca, México, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
 
 
 
@@ -48,7 +44,7 @@ In this repository you can find some analysis of population genomics, potential 
 </p>
 <p align="center">
 
-For more information go to [info_project/Qmacdougallii.md](/info_project/Qmacdougallii.md)
+For more information go to [info_project/README.md](info_project/README.md)
 
 ---
 ## [**data**](/data) 
