@@ -120,7 +120,11 @@ This directory contains the scripts used to perform the analysis of functional g
 [2.2_value_extraction.R](bin/2.2_value_extraction.R)   
 [2.3_correlation.R](bin/2.3_correlation.R)   
 
-**3. GradientForest**  
+**3. GradientForest**
+>Here is a brief description of what GF is
+
+>GradientForest is a multivariate, machine learning approach that considers potential non-linear patterns in the data. GF partitions the allele frequency data at split values along the environmental gradients. Split importance, a measure of the amount of variation explained, is high in positions along the gradient where allelic change is large. Moving along the gradient, the split importance values are summed cumulatively to produce a step-like function for allele frequency change along the environmental gradient, thus quantifying and describing the shape of the relationship between genotypic and environmental data. When run on a large "random" SNP data set, we can infer the contribution of isolation by environment or how environment shapes neutral evolutionary processes such as drift and gene flow. When run on adaptive SNP variation, we can learn more about how selection shapes variation across natural landscapes.
+
 [3.0_gradientForest.R](bin/3.0_gradientForest.R)   
 [3.1_all_SNPs.R](bin/3.1_all_SNPs.R)   
 [3.2_clim_associated_SNPs.R](bin/3.2_clim_associated_SNPs.R)   
