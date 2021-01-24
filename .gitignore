@@ -1,6 +1,7 @@
-data/climate
-data/soil
-data/genomic
+metadata/climate
+metadata/soil
+data/raw
+data/filter
 archive/
 .Rhistory
 .RData

@@ -1,42 +1,24 @@
-rm(list=ls()) #elimina TODOS los objetos del ambiente de trabajo
-#Librerias
+#First we need to clean work space
+rm(list=ls()) 
+#Then we call the libraries
 library(sp)
 library(raster)
-library(rgeos)
-library(maptools)
-library(rgdal)
-library(usdm)
-library(foreign)
-library(rJava)
-library(spocc)
-library(corrplot)
-#install.packages("corrplot")
-#install.packages("usdm")
 
-#Directorio de trabajo
-setwd("")###directorio de las capas climaticas del presente
+#Directory of the climate layers of the present
+wc_path <- list.files("../metadata/climate/wc/actual/",pattern = "*.asc$",full.names = T)###crea el stack de las 19 variables climaticas del presente
+layers_present<- stack(wc_path)
 
-#Cargar capas
-pca_path <- list.files(".",pattern = "../data/climate/wc/actual/*.asc$",full.names = T)###crea el stack de las 19 variables climaticas del presente
-capas_presente<- stack(pca_path)
+#Load the database obtained after cleaning. The database obtained in script 2.1
+data_clean <- read.csv("../results/databases/q_macd_1km_geo_coords.csv")
 
-#Cargar la base de datos
-setwd("../../datos/")###directorio de los puntos de presencia
-datos <- read.csv("Datos-wordlclime_corregid.csv")###nombre del archivo de puntos de la especie
-datos
-
-###########Crear archivo CSV para los puntos a usar en los modelos####
-species<-datos$specie
-lat<-datos$x
-lon<-datos$y
-Specie_estudied<-data.frame(species,lon,lat)
+# Extract the values of the 19 climatic variables for each of the presence points
+values_clim <- data.frame(extract(layers_present,data_clean[,3:4]))
+values_clim2<-data.frame(data_clean,values_clim)
+# Skip the presence data without clim values
+values_clim3 <- na.omit(values_clim2)
+values_clim3 
+# Export the database obtained in this script to use it later
+write.csv(values_clim3, file = "../results/databases/q_macd_wc_values.csv") ### para guardar el archivo de puntos
 
 
-presencias_clima <- data.frame(extract(capas_presente,Specie_estudied[,2:3]))###extrae los valores climaticos para cada uno de los puntos de presencia
-presencias_clima2<-data.frame(Specie_estudied,presencias_clima)
-presencias_clima3 <- na.omit(presencias_clima2)## omite mis datos de presencia sin valores climaticos.
-presencias_clima3
-
-#Exportar los resultados en un archivo .csv
-write.csv(presencias_clima3, file = "datos_worldClim.csv") ### para guardar el archivo de puntos
 
