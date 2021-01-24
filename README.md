@@ -102,7 +102,22 @@ TEM = Annual mean temperature
 
 This directory contains the `.csv` file of geographical coordinates, altitude and the site where each of the 80 individuals were collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
 
-[**metadata_qmacd.csv**](/metadata/ind_qmacd.csv)
+[**/metadata/Qmacdougalli_79ind.csv**](/metadata/Qmacdougalli_79ind.csv)
+  
+ID= The ID of the fastq files  
+MUN = Municipality.  
+NUM_IND= The number of the indivuals, just to make sure
+SITIO=
+POP=
+ALT = Altitude above sea level in meters.
+Categ.Altitud
+NOM_IND
+X=
+Y=
+long=
+lat=
+specie=
+
 
 ---
 
