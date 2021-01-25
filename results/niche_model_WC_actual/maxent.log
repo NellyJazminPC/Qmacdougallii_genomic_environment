@@ -1,0 +1,56 @@
+Sun Jan 24 21:23:24 CST 2021
+MaxEnt version 3.3.3k
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio01.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio02.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio03.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio04.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio05.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio06.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio07.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio08.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio09.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio10.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio11.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio12.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio13.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio14.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio15.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio16.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio17.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio18.asc
+Checking header of /home/nell/Bioinformatic/Qmacdougallii_genomics_and_environment/bin/../metadata/climate/wc/actual/bio19.asc
+Reading samples from quercus_geog_todos_puntos.csv
+Read samples: max memory 536870912, total allocated 260046848, free 249561600, used 10485248, increment 10485248
+Extractor: max memory 536870912, total allocated 260046848, free 246923760, used 13123088, increment 2637840
+Extracting random background and sample data
+78143 points with values for all grids
+Adding samples to background in feature space
+Command line used:  -e ../metadata/climate/wc/actual/ -s ../metadata/quercus_geog_todos_puntos.csv -o ../results/niche_model_WC_actual/ -r -a
+Command line to repeat: java density.MaxEnt nowarnings noprefixes outputdirectory=../results/niche_model_WC_actual/ samplesfile=../metadata/quercus_geog_todos_puntos.csv environmentallayers=../metadata/climate/wc/actual/ noaskoverwrite autorun
+Species: q_macdougallii
+Layers: bio01 bio02 bio03 bio04 bio05 bio06 bio07 bio08 bio09 bio10 bio11 bio12 bio13 bio14 bio15 bio16 bio17 bio18 bio19
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+outputdirectory: ../results/niche_model_WC_actual/
+samplesfile: ../metadata/quercus_geog_todos_puntos.csv
+environmentallayers: ../metadata/climate/wc/actual/
+askoverwrite: false
+autorun: true
+
+getSamples: max memory 536870912, total allocated 260046848, free 240124416, used 19922432, increment 6799344
+Making features
+makeFeatures: max memory 536870912, total allocated 260046848, free 232911776, used 27135072, increment 7212640
+q_macdougallii: 
+Regularization values: linear/quadratic/product: 1.000, categorical: 0.515, threshold: 1.910, hinge: 0.500
+9 samples
+Density: max memory 536870912, total allocated 260046848, free 232379848, used 27667000, increment 531928
+linearPredictor: max memory 536870912, total allocated 260046848, free 232379848, used 27667000, increment 0
+FeaturedSpace: max memory 536870912, total allocated 260046848, free 232379848, used 27667000, increment 0
+Sequential: max memory 536870912, total allocated 260046848, free 232379848, used 27667000, increment 0
+Initial loss: 9.211040127090456
+260: time = 0.169000 loss = 5.594325
+Resulting gain: 3.6167155490774556
+Projecting...
+Writing file ../results/niche_model_WC_actual/q_macdougallii.asc
+Time since start: 1.398
+Writing ../results/niche_model_WC_actual/plots/q_macdougallii.png
+Ending

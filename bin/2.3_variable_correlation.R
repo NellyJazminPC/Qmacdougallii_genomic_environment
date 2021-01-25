@@ -4,6 +4,7 @@ rm(list=ls())
 
 # Load the library for VIF
 library(usdm)
+library(corrplot)
 
 # Load the database
 values_clim<- read.csv("../results/databases/q_macd_wc_values.csv")
