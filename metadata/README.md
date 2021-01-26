@@ -19,7 +19,7 @@ This file in `.csv` format contains the other data we have from the collected in
 | lat = | Geographic coordinates WGS84 |
 | specie = | Unified name for each sample to use MaxEnt |
 
-## ** 2.- ´quercus_geog_todos_puntos.csv´ **
+## ** 2.- `quercus_geog_todos_puntos.csv` **
 This file in `.csv` format contains coordinates of 108 individuals with the WGS84 datum.
 
 | Columns | Description |
