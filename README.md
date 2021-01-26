@@ -140,7 +140,7 @@ _**3. GradientForest**_
 
 
 
-## [**data**](/data) 
+## [**/data/**](/data) 
 
 **(IN PROCESS UNTIL PUBLICATION)**
 
@@ -239,7 +239,15 @@ TEM = Annual mean temperature
 
 ## [**/results/**](/results)
 
-Contains the figures generated from the scripts and the data, as well as a final report of everything obtained.
+Contains the figures and databases generated from the scripts and the data, as well as a final report of everything obtained.   
+/figures/    
+/databases/     
+/niche_model_WC_actual/     
+    /plots/     
+/README_files/       
+    /figure-latex/         
+README.nb.html      
+README.Rmd
 
 ---
 
