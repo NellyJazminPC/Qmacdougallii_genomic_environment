@@ -111,6 +111,35 @@ corrplot
 ##  DETAILED REPOSITORY STRUCTURE 
 
 ---
+
+## [**/bin/**](/bin)
+
+This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
+
+**1. Genomic analysis**      
+
+1.1_load_databases.R     
+1.2_distances_tree.R      
+1.3_PCoA.R      
+1.4_MSN.R      
+1.5_PCA.R       
+1.6_DAPC_SNPs_structure_plot.R
+   
+**2. Environment analysis**      
+
+2.1_clean_data.R      
+2.2_values_extraction.R     
+2.3_variable_correlation.R  
+
+
+_What's next:_
+_**3. GradientForest**_
+>_GradientForest is a multivariate, machine learning approach that considers potential non-linear patterns in the data. GF partitions the allele frequency data at split values along the environmental gradients. Split importance, a measure of the amount of variation explained, is high in positions along the gradient where allelic change is large. Moving along the gradient, the split importance values are summed cumulatively to produce a step-like function for allele frequency change along the environmental gradient, thus quantifying and describing the shape of the relationship between genotypic and environmental data. When run on a large "random" SNP data set, we can infer the contribution of isolation by environment or how environment shapes neutral evolutionary processes such as drift and gene flow. When run on adaptive SNP variation, we can learn more about how selection shapes variation across natural landscapes._
+
+---
+
+
+
 ## [**data**](/data) 
 
 **(IN PROCESS UNTIL PUBLICATION)**
@@ -208,34 +237,7 @@ TEM = Annual mean temperature
 
 ---
 
-
-## [**bin**](/bin)
-
-This directory contains the scripts used to perform the analysis of functional genomics and its association with environmental variables (climate and soil) for *Q. macdugallii*.
-
-**1. Genomic analysis** <br>
-[1.0_genomic_analysis.R]
-   
-**2. Environment analysis**     
-[2.0_environment_analysis.R](bin/2.0_environment_analysis.R)   
-[2.1_clean_data.R](bin/2.1_clean_data.R)   
-[2.2_value_extraction.R](bin/2.2_value_extraction.R)   
-[2.3_correlation.R](bin/2.3_correlation.R)   
-
-**3. GradientForest**
->Here is a brief description of what GF is
-
->GradientForest is a multivariate, machine learning approach that considers potential non-linear patterns in the data. GF partitions the allele frequency data at split values along the environmental gradients. Split importance, a measure of the amount of variation explained, is high in positions along the gradient where allelic change is large. Moving along the gradient, the split importance values are summed cumulatively to produce a step-like function for allele frequency change along the environmental gradient, thus quantifying and describing the shape of the relationship between genotypic and environmental data. When run on a large "random" SNP data set, we can infer the contribution of isolation by environment or how environment shapes neutral evolutionary processes such as drift and gene flow. When run on adaptive SNP variation, we can learn more about how selection shapes variation across natural landscapes.
-
-[3.0_gradientForest.R](bin/3.0_gradientForest.R)   It works only with r version 3.6
-[3.1_all_SNPs.R](bin/3.1_all_SNPs.R)   
-[3.2_clim_associated_SNPs.R](bin/3.2_clim_associated_SNPs.R)   
-[3.3_temp_associated_SNPs_all_clim_var.R](bin/3.3_temp_associated_SNPs_all_clim_var.R)
-
----
-
-
-## [**output**](/output)
+## [**/results/**](/results)
 
 Contains the figures generated from the scripts and the data, as well as a final report of everything obtained.
 
