@@ -1,50 +1,108 @@
-# *Quercus macdougallii*: functional genomics and its association with environmental variables
+# *Quercus macdougallii*: genomic and environmental analysis
 ---
-> # *************** **UNDER CONSTRUCTION** ****************
----
-
-In this repository you can find some analysis of population genomics, potential distribution and the identification of *outliers SNPs* in candidate genes to local adaptation for an oak endemic to México.
-
+> # *************** **Under construction** ****************
 ---
 
-<H1 align=center> GENERAL REPOSITORY STRUCTURE
-</H1>  
-  
+**About this research project:**   
 
-- [**info_project**](/info_project)
-- [**data**](/data)
-- [**metadata**](/metadata)
-- [**bin**](/bin)
-- [**output**](/output)
+The *Quercus* genus, also known as oaks, is one of the most important groups in the forest ecosystems of the northern hemisphere [(Cavender-Bares, 2016)](https://www.cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/2016.cavender.journal.ios%2327.pdf). Currently, Mexico is the main center of diversification of the *Quercus* genus (approx. 150 spp.), of which about half (76 spp.) are endemic to the country ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel *et al.,* 2015](https://www.internationaloaksociety.org/content/encinos-de-mexico-new-book-about-mexican-oaks-spanish-0))
 
+This great diversity and endemism represent an important area of opportunity for studies of adaptation in long-lived tree species to environmental variables in the face of climate change, especially since their ability to face rapid environmental changes can indicate functional processes essential for their survival, being an ideal setting for functional genomics studies ([IPCC](https://www.ipcc.ch/); [Naidoo *et al.,* 2019](https://www.frontiersin.org/articles/10.3389/fpls.2019.00273/full)).
 
----
-
-##  DETAILED REPOSITORY STRUCTURE 
-
-## [info_project](/info_project)  
-
-
-**Information about this project:** This work will constitute the first step to study the local adaptation in candidate genes associated with certain environmental variables (clime and soil) in natural populations of an oak endemic to Oaxaca, México, **_Quercus macdougallii_**. This could help to detect geographic patterns of functional genomic variation and improve conservation plans for the species. 
-
-
-
-  Overall objective for this project: 
-  - Analyze the functional genomic variation of *Quercus macdougallii* to identify genes associated with environmental variables
-  
-  Specific objectives for this project:
-  - 1.- Identify outlier SNPs that are in coding regions
-  - 2.- Analyze this set of outlier SNPs with multivariate models to detect the presence of correlations between this and a set of environmental variables.
-  - 3.- Validate the expression of candidate genes identified through analysis of differential expression.
-
-<p align="center">
-
-<img src="info_project/Pozuelos_Arbol-sacrificio_sagrado.jpg" width="400"/>
 
 </p>
 <p align="center">
 
-For more information go to [info_project/README.md](info_project/README.md)
+<img src="info_project/Qmacd.jpg" width="600"/>
+
+</p> 
+
+The oak *Quercus macdougallii* Martínez (1963), is an **endangered** ([IUCN, 2020](https://www.iucnredlist.org/species/32765/2823034)) and **threatened** ([DOF, 2019](http://www.dof.gob.mx/nota_detalle.php?codigo=5578808&fecha=14/11/2019)) **endemic** species, which has a distribution restricted to the Sierra Juárez also known as Sierra Norte de Oaxaca ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel *et al.,* 2015](https://www.internationaloaksociety.org/content/encinos-de-mexico-new-book-about-mexican-oaks-spanish-0)).
+
+
+**For more information go to [info_project/README.md](info_project/README.md)**
+
+
+## **Programs and dependencies required to use the scripts in this repository**
+
+For now, in this repository we have scripts that are only based on the R language.
+
+The version of R that has been used is 4.0.3 but previous versions work without problem.
+
+The packages to be used are mentioned at the beginning of each script but are briefly mentioned here:
+
+vcfR    
+ade4    
+adegenet    
+dartR    
+ggplot2    
+poppr    
+ape    
+plotly   
+directlabels    
+pca3d    
+igraph    
+shiny    
+scatterplot3d   
+RColorBrewer     
+sp   
+raster   
+usdm    
+corrplot
+
+**For later
+Although is not included for now, scripts using the GradientForest package only work with version 3.6 or lower.**
+
+---
+
+<H1 align=center>  Structure of this repository
+</H1>  
+  
+``` 
+├── /info_project/
+├── /bin/
+│   ├── 1.1_load_databases.R
+|   ├── 1.2_distances_tree.R 
+│   ├── 1.3_PCoA.R 
+|   ├── 1.4_MSN.R 
+│   ├── 1.5_PCA.R  
+|   ├── 1.6_DAPC_SNPs_structure_plot.R
+│   ├── 2.1_clean_data.R 
+|   ├── 2.2_values_extraction.R 
+│   ├── 2.3_variable_correlation.R  
+│   └── /maxent/
+│       └── maxent.jar
+├── /data/
+│   ├── var.79.inds.sorted.vcf
+│   ├── /raw/ (in process)
+│   └── /filter/ (in process)
+├── /metadata/
+│   ├── Qmacdougalli_79ind.csv
+│   ├── quercus_geog_todos_puntos.csv 
+│   ├── /soil/ (in process)
+│   └── /climate/ (is to heavy to storage in this repo)
+│       ├── /conabio/ 
+│       ├── /conagua/ (in process)
+│       └── /wc/
+│           ├── /2050_4.5/  
+|           ├── /2050_8.5/
+|           ├── /2070_4.5/
+|           ├── /2070_8.5/
+|           └── /actual/
+└── /results/
+    ├── /figures/
+    ├── /databases/
+    ├── /niche_model_WC_actual/
+    |   └── /plots/
+    ├── /README_files/
+    |   └── /figure-latex/   
+    ├── README.nb.html
+    └── README.Rmd
+```
+
+---
+
+##  DETAILED REPOSITORY STRUCTURE 
 
 ---
 ## [**data**](/data) 
@@ -56,6 +114,27 @@ This directory will contain the data for genomic and environmental analyzes (cli
  - **genomic** : This directory contains sequences of candidate genes for local adaptation previously identified in the literature and the sequences obtained from the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999). As well as the VCF file (variant call format) of the identified SNPs.
  
    *snps_qmacd.vcf*
+
+---        
+## [**metadata**](/metadata)
+
+This directory contains the `.csv` file of geographical coordinates, altitude and the site where each of the 80 individuals were collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
+
+[**/metadata/Qmacdougalli_79ind.csv**](/metadata/Qmacdougalli_79ind.csv)
+  
+ID= The ID of the fastq files  
+MUN = Municipality.  
+NUM_IND= The number of the indivuals, just to make sure
+SITIO=
+POP=
+ALT = Altitude above sea level in meters.
+Categ.Altitud
+NOM_IND
+X=
+Y=
+long=
+lat=
+specie=
 
 
  - **climate** : Which contains the *shapes* and data of three main public databases to use.
@@ -96,29 +175,6 @@ TEM = Annual mean temperature
  
  - *soil*    : Contains the data of the analyzed variables (content of C, P, N)
 
-
----        
-## [**metadata**](/metadata)
-
-This directory contains the `.csv` file of geographical coordinates, altitude and the site where each of the 80 individuals were collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
-
-[**/metadata/Qmacdougalli_79ind.csv**](/metadata/Qmacdougalli_79ind.csv)
-  
-ID= The ID of the fastq files  
-MUN = Municipality.  
-NUM_IND= The number of the indivuals, just to make sure
-SITIO=
-POP=
-ALT = Altitude above sea level in meters.
-Categ.Altitud
-NOM_IND
-X=
-Y=
-long=
-lat=
-specie=
-
-
 ---
 
 
@@ -153,5 +209,12 @@ This directory contains the scripts used to perform the analysis of functional g
 Contains the figures generated from the scripts and the data, as well as a final report of everything obtained.
 
 ---
+
+
+
+
+
+
+
 
   
