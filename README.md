@@ -1,6 +1,12 @@
 # *Quercus macdougallii*: genomic and environmental analysis
 ---
-> # *************** **Under construction** ****************
+
+
+<H2 align=center> *** UNDER CONSTRUCTION  ***
+</H2>  
+
+
+
 ---
 
 **About this research project:**   
@@ -50,8 +56,8 @@ raster
 usdm    
 corrplot
 
-**For later
-Although is not included for now, scripts using the GradientForest package only work with version 3.6 or lower.**
+### For later    
+**Although is not included for now, scripts using the GradientForest package only work with version 3.6 or lower.**
 
 ---
 
