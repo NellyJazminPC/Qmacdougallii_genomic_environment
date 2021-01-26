@@ -1,24 +1,29 @@
-# Archivos en el folder `/metadata/`
+# Files in the `/ metadata /` folder
 
-## **1.- `Qmacdougallii_79inds.csv`**    
-Este archivo en formato `.csv` contiene los otros datos que se tienen de los individuos colectados, de los cuales se tienen las secuencias y los SNPS (vcf file).
+## ** 1.- `Qmacdougallii_79inds.csv` **
+This file in `.csv` format contains the other data we have from the collected individuals, of which we have the sequences and SNPS (vcf file).
           
-| Columnas         | Descripción      |
+| Columns | Description |
 | ---------- | ------- |
- |ID=       | En el ID con el cual fueron secuenciaciadas las muestras|
-|MUN=      | En municipio en donde se encuentra el individuo|
-|NUM_IND=  | El número de individuos, solo para corrobarar que son 79 individuos|
-|SITIO=    | El sitio de colecta del individuo. Fueron 8 sitios |
-|POP=  | La posible población a la que pertenecen los indivudos de acuerdo a los análisis de estructura |
-|ALT=  | La altitud de donde se encuentra el individuo, dada en metros sobre el nivel del mar (msnm) |
-|Categ.Altitud=  | A partir de la altitud de los individuos se hicieron cuatro categorías de altitud |
-|NOM_IND=  | Renombre de los individuos de la columna ID sustituyendo el "." por "_" para evitar errores al identificar filas|
-|X=  | Coordenadas geográficas en UTM |
-|Y=  | Coordenadas geográficas en UTM |
-|long=  | Coordenadas geográficas en WGS84|
-|lat= | Coordenadas geográficas en datum WGS84|
-|specie= | Nombre unificado para cada muestra para usar el programa MaxEnt |
+ | ID = | In the ID with which the samples were sequenced |
+| MUN = | In municipality where the individual is |
+| NUM_IND = | The number of individuals, just to verify that there are 79 individuals |
+| SITE = | The individual's collection site. There were 8 sites |
+| POP = | The possible population to which the individuals belong according to the structure analysis |
+| ALT = | The altitude of where the individual is, given in meters above sea level (in spanish _msnm_) |
+| Category Altitude = | Four categories of altitude were made from the altitude of the individuals |
+| NOM_IND = | Renaming of individuals in the ID column by replacing the `.` with` _` to avoid errors when identifying rows |
+| X = | Coordinates in UTM |
+| Y = | Coordinates in UTM |
+| long = | Geographic coordinates WGS84 |
+| lat = | Geographic coordinates WGS84 |
+| specie = | Unified name for each sample to use MaxEnt |
 
-2.- ´quercus_geog_todos_puntos.csv´
-| Primera columna | Segunda columna | Tercera columna |
-| -- | -- | -- |
+## ** 2.- ´quercus_geog_todos_puntos.csv´ **
+This file in `.csv` format contains coordinates of 108 individuals with the WGS84 datum.
+
+| Columns | Description |
+| ---------- | ------- |
+| specie = | Unified name for each sample to use MaxEnt |
+| long = | Geographic coordinates WGS84 |
+| lat = | Geographic coordinates WGS84 |
