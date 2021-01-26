@@ -115,36 +115,59 @@ corrplot
 
 **(IN PROCESS UNTIL PUBLICATION)**
 
-This directory will contain the data for genomic and environmental analyzes (climate and soil). 
+This directory will contain the genomic data until the publication of the scientific paper.
 
- - **genomic** : This directory contains sequences of candidate genes for local adaptation previously identified in the literature and the sequences obtained from the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999). As well as the VCF file (variant call format) of the identified SNPs.
- 
-   *snps_qmacd.vcf*
+At the moment, in this folder you can find the VCF file, called **`var.79.inds.sorted.vcf`**. which contains 8,186 SNPs identified for the 79 individuals analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
+
+
+_What's next:_
+
+_The objective is to use the raw sequencing data and add in bin the scripts used for cleaning and filtering, as well as for the assembly and identification of SNPs (VCF file), using the Stacks, iPyrad and bwa-freebayes pipelines._
 
 ---        
-## [**metadata**](/metadata)
+## [**/metadata/**](/metadata)
 
 This directory contains the `.csv` file of geographical coordinates, altitude and the site where each of the 80 individuals were collected and analyzed in the work of [Pacheco-Cruz, 2019](http://oreon.dgbiblio.unam.mx/F/X3YHJ1BNV7S4YYHEPDPIIA1S4GF2I5UGQMS61QGRFB4AHKPCJ7-04791?func=full-set-set&set_number=023823&set_entry=000002&format=999).
 
-[**/metadata/Qmacdougalli_79ind.csv**](/metadata/Qmacdougalli_79ind.csv)
-  
-ID= The ID of the fastq files  
-MUN = Municipality.  
-NUM_IND= The number of the indivuals, just to make sure
-SITIO=
-POP=
-ALT = Altitude above sea level in meters.
-Categ.Altitud
-NOM_IND
-X=
-Y=
-long=
-lat=
-specie=
+### There are two .csv files:
+
+#### 1.- `Qmacdougallii_79inds.csv` 
+This file in `.csv` format contains the other data we have from the collected individuals, of which we have the sequences and SNPS (vcf file).
+          
+| Columns | Description |
+| ---------- | ------- |
+ | ID = | In the ID with which the samples were sequenced |
+| MUN = | In municipality where the individual is |
+| NUM_IND = | The number of individuals, just to verify that there are 79 individuals |
+| SITE = | The individual's collection site. There were 8 sites |
+| POP = | The possible population to which the individuals belong according to the structure analysis |
+| ALT = | The altitude of where the individual is, given in meters above sea level (in spanish _msnm_) |
+| Category Altitude = | Four categories of altitude were made from the altitude of the individuals |
+| NOM_IND = | Renaming of individuals in the ID column by replacing the `.` with` _` to avoid errors when identifying rows |
+| X = | Coordinates in UTM |
+| Y = | Coordinates in UTM |
+| long = | Geographic coordinates WGS84 |
+| lat = | Geographic coordinates WGS84 |
+| specie = | Unified name for each sample to use MaxEnt |
+
+####  2.- `quercus_geog_todos_puntos.csv` 
+This file in `.csv` format contains coordinates of 108 individuals with the WGS84 datum.
+
+| Columns | Description |
+| ---------- | ------- |
+| specie = | Unified name for each sample to use MaxEnt |
+| long = | Geographic coordinates WGS84 |
+| lat = | Geographic coordinates WGS84 |
 
 
- - **climate** : Which contains the *shapes* and data of three main public databases to use.
-    - *wc* : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.*actual, 2050_4.5, 2050_8.5, 2070_4.5, 2070_8.5*
+### The other two folders that for storage purpose were not not uploaded in this repo, are:
+
+
+#### **/climate/**  
+
+Which contains the *shapes* and data of three main public databases to use.
+          - *wc* : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.     
+          *actual, 2050_4.5, 2050_8.5, 2070_4.5, 2070_8.5*
         
 BIO1 = Annual Mean Temperature
 BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
@@ -179,7 +202,9 @@ ELE = Digital Elevation Model
 HGE = Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)   
 TEM = Annual mean temperature
  
- - *soil*    : Contains the data of the analyzed variables (content of C, P, N)
+ #### **/soil/**     
+ 
+ Contains the data of the analyzed variables (content of C, P, N)
 
 ---
 
