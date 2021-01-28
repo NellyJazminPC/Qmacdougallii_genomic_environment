@@ -70,23 +70,35 @@ tree_sitios_79.1
 source("../bin/1.3_PCoA.R", echo = T)
 ```
 
+### Minimum spanning network (MSN)
+
 We can create a minimum spanning network (MSN) of selected populations using a distance matrix. <https://grunwaldlab.github.io/Population_Genetics_in_R/Minimum_Spanning_Networks.html>
 
 ```{r}
 source("../bin/1.4_MSN.R", echo = T)
 ```
 
-For Principal Component Analysis
+In the minimal expansion network analysis, where the visualization of relationships between individuals based on genetic distances was optimized, no clonal individuals were identified. Likewise, it is observed that the individual CR\_16 connects two branches that are formed between individuals from the South. On the other hand, it is observed that certain individuals from the South zone have closer genetic distances to other individuals from the North zone. For example, individuals CR\_19, LS\_26, LS\_28 and LS\_29 are grouped at one end of the network, closer to individuals from the MT site, while individuals PZ\_01, PZ\_02 and PZ\_03 are located closer to the MC and MB sites .
+
+### For Principal Component Analysis
 
 ```{r}
 source("../bin/1.5_PCA.R", echo = F)
 ```
 
-The analysis of DAPC
+In the PCA, a tendency of separation is observed between the individuals of the North zone and those of the South. While the individuals from the North zone are strongly grouped among themselves, those from the South zone are dispersed. On the other hand, the first CP clearly separates individuals from the North zone, also grouping individuals LS\_26, LS\_28, LS\_29 and CR\_19 from the South zone. These same individuals are also isolated by the second CP along with others from the MC and CZ sites.
+
+### The analysis of DAPC
 
 ```{r}
 source("../bin/1.6_DAPC_SNPs_structure_plot.R", echo = T)
 ```
+
+In SNP 3, a fluctuation in allele frequencies is observed between the sites in the North and South zones. While in the North zone only one allele is observed for the SNPs, cytosine, in the South zone the presence of another allele, adenine, is observed.
+
+In SNP 5, only in the CR and PZ sites, both in the southern zone, SNPs with changes of two alleles, guanine and cytosine, are observed, while in the other sites, this SNP is only found with the cytosine allele.
+
+*In the eight SNPs outliers a differentiation trend was observed between the two zones, being very clear in the two transversions. Due to this and considering that in the South zone it is possible that there is an incipient genetic group for the species, we could point out that, in the South zone sites, especially in PZ and CR, it is where the new alleles have been presented. for these SNPs outliers, which only present one allele in the northern zone sites. Therefore, these SNPs outliers could be interesting candidates for functional genomics studies.*
 
 ## Analysis of environment variables
 
@@ -120,7 +132,7 @@ Finally, from the generated database we make a correlation analysis as well as a
 [**2.3\_variable\_correlation.R**](../bin/2.3_variable_correlation.R)
 
 ```{r}
-source("../bin/2.3_variable_correlation.R", echo = T)
+source("../bin/2.3_variable_correlation.R", echo = T)git statusgit
 ```
 
 To find out which ones to remove using the Variance Inflation Factor (VIF). If VIF\> 4.0 implies multicollinearity, these variables must be removed. However, some authors recommend that it is fine with VIF values\> 10 [Montgomery and Peck (1992)], this suggests that the collinearity between these variables is no longer a problem.
