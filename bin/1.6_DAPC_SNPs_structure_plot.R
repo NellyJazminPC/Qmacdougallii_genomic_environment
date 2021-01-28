@@ -31,6 +31,24 @@ scatter(dapc1, col = cols, cex = 4, cell=0, cstar = 1, mstree = TRUE,
 
 
 
+# Now we reset the plotting parameters to default
+par(mfrow = c(1, 1), mar = c(5, 4, 4, 2) + 0.1, las = 0)
+
+set.seed(999)
+pramx <- xvalDapc(tab(snps_sites_genclone, NA.method = "mean"), pop(snps_sites_genclone))
+
+set.seed(999)
+system.time(pramx <- xvalDapc(tab(snps_sites_genclone, NA.method = "mean"), 
+                              pop(snps_sites_genclone), n.pca = 5:20, n.rep = 10, 
+                              parallel = "multicore", ncpus = 6))
+
+names(pramx) # The first element are all the samples
+pramx[2:6]
+scatter(pramx$DAPC,cex = 2,col = cols, cell=0, cstar = 1, legend = F, mstree = TRUE, lwd = 2, lty = 2,
+        clabel = FALSE, posi.leg = "bottomleft", scree.pca = F, scree.da = F,
+        posi.pca = "topleft", cleg = 0.75, xax = 1, yax = 2, inset.solid = 1, pch=19)
+
+
 
 #dapc.H3N2 <- dapc(H3N2, var.contrib = TRUE, scale = FALSE, n.pca = 30, n.da = nPop(H3N2) - 1)
 
@@ -108,47 +126,4 @@ matplot(freq7868, type = "b", pch = c("a", "t"),
         xlab = "SITIO", ylab = "Frecuencia alélica", main = "SNP #7868",
         xaxt = "n", cex = 1.5)
 axis(side = 1, at = 1:8, lab = c("PZ","CR","LS","MC","MB","CY","MT","CZ"))
-
-
-
-
-
-
-# Now we reset the plotting parameters to default
-par(mfrow = c(1, 1), mar = c(5, 4, 4, 2) + 0.1, las = 0)
-
-set.seed(999)
-pramx <- xvalDapc(tab(snps_sites_genclone, NA.method = "mean"), pop(snps_sites_genclone))
-
-set.seed(999)
-system.time(pramx <- xvalDapc(tab(snps_sites_genclone, NA.method = "mean"), 
-                              pop(snps_sites_genclone), n.pca = 5:20, n.rep = 1000, 
-                              parallel = "multicore", ncpus = 6))
-
-names(pramx) # The first element are all the samples
-pramx[2:6]
-scatter(pramx$DAPC,cex = 2,col = cols, cell=0, cstar = 1, legend = F, mstree = TRUE, lwd = 2, lty = 2,
-        clabel = FALSE, posi.leg = "bottomleft", scree.pca = F, scree.da = F,
-        posi.pca = "topleft", cleg = 0.75, xax = 1, yax = 2, inset.solid = 1, pch=19)
-
-
-#compoplot(pnw.dapc,col = function(x) cols, posi = 'top')
-compoplot(pramx$DAPC,col = cols, posi = 'top')
-
-dapc.results <- as.data.frame(pramx$DAPC$posterior)
-dapc.results$pop <- pop(snps_genlight_sites)
-dapc.results$indNames <- rownames(dapc.results)
-
-library(reshape)
-dapc.results <- melt(dapc.results)
-
-colnames(dapc.results) <- c("Original_Pop","Sample","Assigned_Pop","Posterior_membership_probability")
-
-p <- ggplot(dapc.results, aes(x=Sample, y=Posterior_membership_probability, fill=Assigned_Pop))
-p <- p + geom_bar(stat='identity') 
-p <- p + scale_fill_manual(values = cols) 
-p <- p + facet_grid(~Original_Pop, scales = "free")
-p <- p + theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 8))
-p
-
 

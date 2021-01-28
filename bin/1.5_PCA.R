@@ -31,17 +31,16 @@ colors <- colors[as.numeric(cgum_79_1.pca.scores$pop)]
 
 colores <- cols[as.numeric(cgum_79_1.pca.scores$pop)]
 
-
+#ggplot con esa tabla de scores
+#agrego ggplot
 set.seed(12345)
-p <- ggplot(cgum_79_1.pca.scores, aes(x=PC2, y=PC1), colours=colores)
-p <- p + geom_point(size=4, alpha=0.7)  + 
-  scale_color_manual(values = colores, name="Sitios", labels=c("PZ", "CR", "LS","MC", "MB", "CY", "MT","CZ")) 
-p <- p + geom_hline(yintercept = 0) + geom_vline(xintercept = 0) + theme_bw() 
-p <- p + theme(legend.title = element_blank()) + theme(legend.text = element_text(size = 18)) +
+ggplot(cgum_79_1.pca.scores, aes(x=PC2, y=PC1)) + geom_point(aes(colour = pop), size = 4, alpha = 0.7) +
+  scale_colour_manual(values = cols, name="Sitios", 
+                      labels=c("PZ", "CR", "LS","MC", "MB", "CY", "MT","CZ")) + geom_hline(yintercept = 0) + geom_vline(xintercept = 0) + theme_bw() + theme(legend.title = element_blank()) + theme(legend.text = element_text(size = 18)) +
   theme(axis.title.x = element_text(size=20), axis.text.x  = element_text(size=16)) +
   theme(axis.title.y = element_text(size=20), axis.text.y  = element_text(size=16)) + 
-  xlab("PC2 %2.361") + ylab("PC1 %4.45")
-p  + geom_text(aes(label=snps_genlight_sites$ind.names),hjust=-0.4, vjust=0.8, size=3)
+  xlab("PC2 %2.361") + ylab("PC1 %4.45") + geom_text(aes(label=snps_genlight_sites$ind.names),hjust=-0.4, vjust=0.8, size=3)
+
 
 #+ stat_ellipse(level = 0.9, size = 0.2)
 
