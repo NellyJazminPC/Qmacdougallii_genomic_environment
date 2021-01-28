@@ -21,7 +21,7 @@ Then we can plot a distances tree [1.2\_distances\_tree.R](../bin/1.2_distances_
 ### Distance tree
 
 tree <- aboot(snps_genlight_sites, tree = "nj", 
-              distance = bitwise.dist, sample = 500, 
+              distance = bitwise.dist, sample = 50, 
               showtree = F, cutoff = 50, quiet = T)
 
 # And if we want to write the file to export in .tre format (Newick file format) so we can visualize in Geneious also
@@ -40,7 +40,6 @@ plot.phylo(tree, type = "cladogram", use.edge.length = T, rotate.tree = 170,
            edge.color = "black", node.pos = 2, 
            show.tip.label = TRUE, edge.width = 1, cex = .6, font = 1, 
            tip.color =  cols[pop(snps_genlight_sites)], no.margin = F)
-
 #######Extra
 nodelabels(tree$node.label, adj = c(0.1, -0.5), frame = "n", cex = 0.6,font = 1, xpd = TRUE)
 legend("topright", legend = c("Comaltepec-Yolox","Ixtlán"), fill = cols, border = FALSE, bty = "n", cex = 0.3)
@@ -132,12 +131,12 @@ Finally, from the generated database we make a correlation analysis as well as a
 [**2.3\_variable\_correlation.R**](../bin/2.3_variable_correlation.R)
 
 ```{r}
-source("../bin/2.3_variable_correlation.R", echo = T)git statusgit
+source("../bin/2.3_variable_correlation.R", echo = T)
 ```
 
 To find out which ones to remove using the Variance Inflation Factor (VIF). If VIF\> 4.0 implies multicollinearity, these variables must be removed. However, some authors recommend that it is fine with VIF values\> 10 [Montgomery and Peck (1992)], this suggests that the collinearity between these variables is no longer a problem.
 
-Other authors suggest that it should ideally be less than 1.5, see Zuur et al. 2009. Mixed Effects Models and Extensions in Ecology with R. pp. 478 for references
+Other authors suggest that it should ideally be less than 1.5, see Zuur et al. 2009. Mixed Effects Models and Extensions in Ecology with R. pp. 478 for references.
 
 ## MaxEnt
 
