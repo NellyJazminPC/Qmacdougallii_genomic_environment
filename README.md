@@ -37,24 +37,26 @@ The version of R that has been used is 4.0.3 but previous versions work without 
 
 The packages to be used are mentioned at the beginning of each script but are briefly mentioned here:
 
-vcfR    
-ade4    
-adegenet    
-dartR    
-ggplot2    
-poppr    
-ape    
-plotly   
-directlabels    
-pca3d    
-igraph    
-shiny    
-scatterplot3d   
-RColorBrewer     
-sp   
-raster   
-usdm    
-corrplot
+|    |
+| -- |
+|vcfR    |
+|ade4    |
+|adegenet |   
+|dartR    |
+|ggplot2  |  
+|poppr   | 
+|ape    |
+|plotly   |
+|directlabels |   
+|pca3d    |
+|igraph    |
+|shiny    |
+|scatterplot3d |  
+|RColorBrewer |    
+|sp   |
+|raster   |
+|usdm    |
+|corrplot|
 
 ### For later    
 **Although is not included for now, scripts using the GradientForest package only work with version 3.6 or lower.**
@@ -118,21 +120,25 @@ This directory contains the scripts used to perform the analysis of functional g
 
 **1. Genomic analysis**      
 
-1.1_load_databases.R     
-1.2_distances_tree.R      
-1.3_PCoA.R      
-1.4_MSN.R      
-1.5_PCA.R       
-1.6_DAPC_SNPs_structure_plot.R
+|                      |                            |
+| -------------------- | -------------------------- |
+|1.1_load_databases.R  |  This script starts by loading all the libraries to be used in the downstream analyzes as well as the VCF and CSV files |
+|1.2_distances_tree.R  |  This script is to make a tree through a matrix of genetic distances             |
+|1.3_PCoA.R            |  This script is to perform a principal coordinate analysis (PCoA) as well as their respective graphs            |
+|1.4_MSN.R             |  This script is to make a minimal expansion network (MSN) analysis was also performed, which groups multilocus genotypes (MLG) by genetic distances between them  |
+|1.5_PCA.R             |  This script is to do an analysis of principal components (PCA) and their corresponding plots  |
+|1.6_DAPC_SNPs_structure_plot.R |  This script is for doing a Discriminant Analysis of Principal Components (ADCP) which was used to identify and describe groups of genetically related individuals    |
    
 **2. Environment analysis**      
 
-2.1_clean_data.R      
-2.2_values_extraction.R     
-2.3_variable_correlation.R  
+|                           |                    |
+| ------------------------  | ------------------ |
+|2.1_clean_data.R           | This script is for cleaning the data. The duplicates were searched and removed from the dataset of coordinates, likewise only the data with a certain resolution was retained, which has to do with the resolution of the WorldClim environmental layers|
+|2.2_values_extraction.R    | This script is to obtain the values of the climatic variables from WorldClim for each coordinate retained in the previous script |
+|2.3_variable_correlation.R | This script is to find those variables with low levels of collinearity |
 
 
-_What's next:_
+_What's next?:_
 _**3. GradientForest**_
 >_GradientForest is a multivariate, machine learning approach that considers potential non-linear patterns in the data. GF partitions the allele frequency data at split values along the environmental gradients. Split importance, a measure of the amount of variation explained, is high in positions along the gradient where allelic change is large. Moving along the gradient, the split importance values are summed cumulatively to produce a step-like function for allele frequency change along the environmental gradient, thus quantifying and describing the shape of the relationship between genotypic and environmental data. When run on a large "random" SNP data set, we can infer the contribution of isolation by environment or how environment shapes neutral evolutionary processes such as drift and gene flow. When run on adaptive SNP variation, we can learn more about how selection shapes variation across natural landscapes._
 
@@ -189,47 +195,59 @@ This file in `.csv` format contains coordinates of 108 individuals with the WGS8
 | lat = | Geographic coordinates WGS84 |
 
 
-### The other two folders that for storage purpose were not not uploaded in this repo, are:
+### The other two folders that was not uploaded in this repo for storage purpose are:
 
 
 #### **/climate/**  
 
 Which contains the *shapes* and data of three main public databases to use.
-          - *wc* : Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.     
-          *actual, 2050_4.5, 2050_8.5, 2070_4.5, 2070_8.5*
-        
-BIO1 = Annual Mean Temperature
-BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
-BIO3 = Isothermality (BIO2 / BIO7) (× 100)    
-BIO4 = Temperature Seasonality (standard deviation × 100)   
-BIO5 = Max Temperature of Warmest Month   
-BIO6 = Min Temperature of Coldest Month   
-BIO7 = Temperature Annual Range (BIO5-BIO6)   
-BIO8 = Mean Temperature of Wettest Quarter    
-BIO9 = Mean Temperature of Driest Quarter   
-BIO10 = Mean Temperature of Warmest Quarter   
-BIO11 = Mean Temperature of Coldest Quarter   
-BIO12 = Annual Precipitation   
-BIO13 = Precipitation of Wettest Month   
-BIO14 = Precipitation of Driest Month   
-BIO15 = Precipitation Seasonality (Coefficient of Variation)    
-BIO16 = Precipitation of Wettest Quarter   
-BIO17 = Precipitation of Driest Quarter   
-BIO18 = Precipitation of Warmest Quarter   
-BIO19 = Precipitation of Coldest Quarter
-     
-- *conabio* : Contains the files in .shape format, obtained from the CONABIO portal http://geoportal.conabio.gob.mx/
 
-EXL = Existence of firewood in Mexico at the municipal level   
-EXP = Exposure   
-PRE = Average annual precipitation   
-RHS = Soil moisture regimes   
-ACE = Modified specific catchment area (accumulation of water due to surface runoff)   
-PDT = Pending   
-EDA = Edaphology (soil type)   
-ELE = Digital Elevation Model   
-HGE = Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)   
-TEM = Annual mean temperature
+#### **wc** :      
+Contains the layers of the [WorldClim site](https://www.worldclim.org/) with data for the current scenario and four scenarios under the effects of climate change.  
+          
+|Current scenario      |        |         |         |         |
+| ------ | ------ | ------- | ------- | ------- |
+| **/actual/**  | **/2050_4.5/** | **/2050_8.5/** | **/2070_4.5/** | **/2070_8.5/** |
+        
+The layers: 
+
+|      |        |
+| ---- | ------ |
+|BIO1  | Annual Mean Temperature|
+|BIO2 | Mean Diurnal Range (Mean of monthly (max temp - min temp)) |
+|BIO3 | Isothermality (BIO2 / BIO7) (× 100)    |
+|BIO4 | Temperature Seasonality (standard deviation × 100) |  
+|BIO5 | Max Temperature of Warmest Month   |
+|BIO6 | Min Temperature of Coldest Month   |
+|BIO7 | Temperature Annual Range (BIO5-BIO6)   |
+|BIO8 | Mean Temperature of Wettest Quarter   | 
+|BIO9 | Mean Temperature of Driest Quarter   |
+|BIO10 | Mean Temperature of Warmest Quarter |  
+|BIO11 | Mean Temperature of Coldest Quarter|   
+|BIO12 | Annual Precipitation   |
+|BIO13 | Precipitation of Wettest Month   |
+|BIO14 | Precipitation of Driest Month   |
+|BIO15 | Precipitation Seasonality (Coefficient of Variation)|    
+|BIO16 | Precipitation of Wettest Quarter   |
+|BIO17 | Precipitation of Driest Quarter   |
+|BIO18 | Precipitation of Warmest Quarter |  
+|BIO19 | Precipitation of Coldest Quarter|
+     
+#### *conabio* :      
+Contains the files in .shape format, obtained from the CONABIO portal http://geoportal.conabio.gob.mx/
+
+|       |       |
+| ----- | ----- |
+|EXL | Existence of firewood in Mexico at the municipal level   |
+|EXP | Exposure   |
+|PRE | Average annual precipitation   |
+|RHS | Soil moisture regimes   |
+|ACE | Modified specific catchment area (accumulation of water due to surface runoff)   |
+|PDT | Pending   |
+|EDA | Edaphology (soil type)   |
+|ELE | Digital Elevation Model   |
+|HGE | Hydrogeology (water retention capacity, through porosity and permeability of the soil and subsoil)   |
+|TEM | Annual mean temperature |
  
  #### **/soil/**     
  
