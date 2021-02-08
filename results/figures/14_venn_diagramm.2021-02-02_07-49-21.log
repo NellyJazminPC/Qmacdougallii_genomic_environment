@@ -1,0 +1,12 @@
+INFO [2021-02-02 07:49:21] $x
+INFO [2021-02-02 07:49:21] list(outl.bay.8sites, outl.snpstats.8sites, outl.pcadapt)
+INFO [2021-02-02 07:49:21] 
+INFO [2021-02-02 07:49:21] $category.names
+INFO [2021-02-02 07:49:21] c("Set 1", "Set 2 ", "Set 3")
+INFO [2021-02-02 07:49:21] 
+INFO [2021-02-02 07:49:21] $filename
+INFO [2021-02-02 07:49:21] [1] "../results/figures/14_venn_diagramm"
+INFO [2021-02-02 07:49:21] 
+INFO [2021-02-02 07:49:21] $output
+INFO [2021-02-02 07:49:21] [1] TRUE
+INFO [2021-02-02 07:49:21] 

@@ -1,0 +1,34 @@
+INFO [2021-02-02 07:51:31] $x
+INFO [2021-02-02 07:51:31] list(outl.bay.8sites, outl.snpstats.8sites, outl.pcadapt)
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $category.names
+INFO [2021-02-02 07:51:31] c("Bayescan", "PCAdapt")
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $filename
+INFO [2021-02-02 07:51:31] [1] "../results/figures/venn.outl.bay.snpstat.pcadapt.8sites"
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $output
+INFO [2021-02-02 07:51:31] [1] TRUE
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $imagetype
+INFO [2021-02-02 07:51:31] [1] "png"
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $resolution
+INFO [2021-02-02 07:51:31] [1] 600
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $compression
+INFO [2021-02-02 07:51:31] [1] "lzw"
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $lwd
+INFO [2021-02-02 07:51:31] [1] 1
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $lty
+INFO [2021-02-02 07:51:31] [1] "blank"
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $fill
+INFO [2021-02-02 07:51:31] c("red", "blue", "yellow")
+INFO [2021-02-02 07:51:31] 
+INFO [2021-02-02 07:51:31] $cex
+INFO [2021-02-02 07:51:31] [1] 1.25
+INFO [2021-02-02 07:51:31] 
+ERROR [2021-02-02 07:51:31] Unexpected parameter length for 'category'

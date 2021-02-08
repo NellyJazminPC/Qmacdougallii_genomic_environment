@@ -1,0 +1,47 @@
+INFO [2021-02-02 07:59:01] $x
+INFO [2021-02-02 07:59:01] list(outl.bay.2pop, outl.bay.8sites, outl.snpstats.2pop, outl.snpstats.8sites, 
+INFO [2021-02-02 07:59:01]     outl.pcadapt)
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $category.names
+INFO [2021-02-02 07:59:01] c("Bayescan2pop", "Bayescan8sites", "SnpStat2pop", "SnpStat8sites", 
+INFO [2021-02-02 07:59:01]     "PCAdapt")
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $filename
+INFO [2021-02-02 07:59:01] [1] "../results/figures/venn.outl.bay.snpstat.pcadapt.2pop.8sites"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $output
+INFO [2021-02-02 07:59:01] [1] TRUE
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $imagetype
+INFO [2021-02-02 07:59:01] [1] "png"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $resolution
+INFO [2021-02-02 07:59:01] [1] 600
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $compression
+INFO [2021-02-02 07:59:01] [1] "lzw"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $lwd
+INFO [2021-02-02 07:59:01] [1] 1
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $lty
+INFO [2021-02-02 07:59:01] [1] "blank"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $fill
+INFO [2021-02-02 07:59:01] c("blue", "red", "yellow", "green", "pink")
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $cex
+INFO [2021-02-02 07:59:01] [1] 1.25
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $fontfamily
+INFO [2021-02-02 07:59:01] [1] "times"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $cat.cex
+INFO [2021-02-02 07:59:01] [1] 0.8
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $cat.default.pos
+INFO [2021-02-02 07:59:01] [1] "outer"
+INFO [2021-02-02 07:59:01] 
+INFO [2021-02-02 07:59:01] $cat.fontfamily
+INFO [2021-02-02 07:59:01] [1] "times"
+INFO [2021-02-02 07:59:01] 

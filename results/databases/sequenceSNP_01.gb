@@ -1,0 +1,82 @@
+LOCUS       XM_031108791             201 bp    mRNA    linear   PLN 07-OCT-2019
+DEFINITION  PREDICTED: Quercus lobata putative wall-associated receptor
+            kinase-like 16 (LOC115985898), mRNA.
+ACCESSION   XM_031108791 REGION: 1760..1960
+VERSION     XM_031108791.1
+DBLINK      BioProject: PRJNA574457
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Quercus lobata
+  ORGANISM  Quercus lobata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fagales; Fagaceae; Quercus.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_044907.1) annotated using gene prediction method: Gnomon,
+            supported by EST evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Name             :: Quercus lobata Annotation Release
+                                           100
+            Annotation Version          :: 100
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 8.2
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 3% of CDS bases
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..201
+                     /organism="Quercus lobata"
+                     /mol_type="mRNA"
+                     /isolate="SW786"
+                     /db_xref="taxon:97700"
+                     /chromosome="4"
+                     /tissue_type="leaf"
+                     /country="USA: Sedgwick Reserve, California"
+                     /lat_lon="34.6882 N 120.03615 W"
+     gene            <1..>201
+                     /gene="LOC115985898"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Gnomon. Supporting evidence
+                     includes similarity to: 1 EST, 31 Proteins, and 96%
+                     coverage of the annotated genomic feature by RNAseq
+                     alignments, including 1 sample with support for all
+                     annotated introns"
+                     /db_xref="GeneID:115985898"
+     CDS             <1..>201
+                     /gene="LOC115985898"
+                     /codon_start=3
+                     /product="putative wall-associated receptor kinase-like
+                     16"
+                     /protein_id="XP_030964651.1"
+                     /db_xref="GeneID:115985898"
+                     /translation="MGFLETLIRITCLSVILSEFAVAVVGFTYPIARPNCSDRCGDMK
+                     IPYPFGLREGCYLDHNFFVNCTNSSEPFIPEDIIVKNISLHGQIDTLMYIAHDCYKKG
+                     AMVASNNPWLNSPLNFTVSSTQNKFVVVGCDTHAYLLGYQQNERYATGCASVCESTRF
+                     MVNGSCTGVGCCEVDIPIGFKNVTMESHSFQNHTMVENFNPCGYAFISKQDTFNFSID
+                     SLRTLRDQQMMPMVLDWAIGNETCNDIENKSNYICGDNSSCQNSEDRSGYRCKCKDGY
+                     DGNPYLPTGCQDIDECKNPNNCNHLGQECINKPRKFTCVCIKGYHLDQSAGVCVANQS
+                     SLQVKLLVGVGISFIVMLVCSSWLYLMVKQRKLIKLRQRFFEQNGGLILQQKLSKAEN
+                     STATAKIFTTEELKKATNNYDETLIIGRGGFGTVYKGLLPDNRIVAIKKSKTVNERQI
+                     EQFINEVVVLSQINHRNVVKLLGCCLETQIPLLVYEFIPNGTLFEYIHHKNKASTVSW
+                     EIRLRIAAETAEALSYLHFAASPPIIHRDVKSSNILLDSTHTAKVSDFGASRLVPLDQ
+                     TQLATMMQGTLGYLDPEYMQTSQLTEKSDVYSFGVVLVELLMGEKALSFDKPEEERSL
+                     AIRFLSFLNDNRLFEILEKHIAKEGKAEQLKEVANLAKRCLQLKGQDRPTMKEVATEL
+                     EGLRKMEMHSWVNVDSNSKETEFLLGETSDSYKYNVSNKSTNVYDSVRDHLIFDLDDG
+                     R"
+ORIGIN      
+        1 gatacttgga tcctgaatac atgcaaacaa gtcaattgac agagaaaagt gatgtttata
+       61 gctttggagt ggtcctcgta gagttattaa tgggagaaaa ggctctttca tttgataagc
+      121 cagaggagga aagaagtcta gctatacgtt ttctatcttt tttgaatgat aatagattgt
+      181 ttgaaattct tgaaaaacat a
+//
+
