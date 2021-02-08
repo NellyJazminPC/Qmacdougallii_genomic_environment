@@ -1,10 +1,11 @@
-metadata/climate
-metadata/soil
-data/raw
-data/filter
+metadata/
+data/
 archive/
 .Rhistory
 .RData
 .Rproj.user
 bin/bin.Rproj
 bin/prueba_error_instalacion_paquetes.R
+bin/BayeScan2.1
+bin/PGDSpider_2.1.1.5
+bin/plink_1.09
