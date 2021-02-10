@@ -144,7 +144,7 @@ En especies arbóreas de vida larga se han reportado genes asociados a una respu
 
 || |
 |--------|--------|
-|<p align="center"> <img src="../info_project/mapas_sitios de muestreo_escala_cor_powerpoint.jpg" width="400"/> </p>| <p align="center"> <img src="../info_project/sitios_muestreo.png" width="400"/> </p>|
+|<p align="center"> <img src="../info_project/mapas_sitios de muestreo_escala_cor_powerpoint.jpg" width="500"/> </p>| <p align="center"> <img src="../info_project/sitios_muestreo.png" width="400"/> </p>|
 
 Esta área se encuentra en una zona de transición entre dos provincias biogeográficas, la Sierra Madre del Sur y la Provincia de Oaxaca.
 
