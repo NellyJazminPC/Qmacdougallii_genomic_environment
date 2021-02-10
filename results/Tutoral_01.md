@@ -31,11 +31,13 @@
 
 - Patrimonio biocultural
 
+([Cavender-Bares, 2016](https://www.cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/2016.cavender.journal.ios%2327.pdf); [Cavender-Bares, 2019](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15450))
+
 <p align="center">
 <img src="../info_project/forests.png" width="1000"/>
 </p>
 
-([Cavender-Bares, 2016](https://www.cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/2016.cavender.journal.ios%2327.pdf); [Cavender-Bares, 2019](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15450))
+
 
 Adaptación de especies arbóreas frente al Cambio Climático ([IPCC, 2007](https://www.ipcc.ch/report/ar4/syr/))
 
@@ -61,15 +63,24 @@ Distribución geográfica de las ocho secciones del género *Quercus* ([Denk *et
 
 * * *
 ## *Quercus macdougallii* Martínez (1963)
-Familia: Fagaceae
-Género: Quercus
-Subgénero: Quercus
-Sección: _Quercus_ (encinos blancos)
 
-**_Yaa dua yu_** ( Zapoteco)  
-**_’Ma kue_** (Chinanteco)
+```
+├── Familia: Fagaeae
+│   └── Género: Quercus   
+│         └── Subgénero: Quercus  
+│               └── Sección: Quercus (encinos blancos)
+│                      └── Especie: Q. macdougallii
+ 
+   
 
-Encino endémico en peligro (UICN, 2020) y amenazado (NOM-059, 2019).
+
+```
+Nombres comunes en la zona donde se distribuye:
+
+- **_Yaa dua yu_** ( Zapoteco)  
+- **_’Ma kue_** (Chinanteco)
+
+Encino endémico en peligro ([UICN, 2020](https://www.iucnredlist.org/es/species/32765/2823034)) y amenazado ([NOM-059, 2019](http://diariooficial.gob.mx/normasOficiales.php?codp=8007&view=si#)).
 
 <p align="center">
 <img src="../info_project/qmacdougallii.png" width="600"/>
@@ -78,6 +89,55 @@ Encino endémico en peligro (UICN, 2020) y amenazado (NOM-059, 2019).
 Individuos adultos de _Q. macdougallii_: a) Hojas de un individuo adulto; b) Hojas de un individuo con características arbustivas en el sitio MC; c) Hojas con evidencia de herbivoría; d) Individuos adultos en el sitio PZ (aprox. 15 m de altura); e) Individuo con apariencia arbustiva en el sitio CZ (aprox. 3 m de altura); f) Individuo adulto en el sitio MB cubierto de musgos y epífitas.
 
 
+<p align="center">
+<img src="../info_project/mapa.png" width="700"/>
+</p>
+
+Presenta una distribución restringida a la Sierra Norte de Oaxaca,  también conocida como Sierra Juárez ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel _et al.,_ 2015](https://www.iztacala.unam.mx/coordinacioneditorial/vinculos/servicio/libreria/catalogo.php#indice)).
+
+* * *
+## Antecedentes
+
+
+
+De la especie:
+
+
+
+
+* * *
+## Justificación
+
+<p align="center">
+<img src="../info_project/justificacion_01.png" width="700"/>
+</p>
+
+(Rellstab _et al.,_ 2016; Sork _et al.,_ 2016a; Sork _et al.,_ 2016b; Gugger _et al.,_ 2017; Pina-Martins _et al.,_ 2019).
+
+<p align="center">
+<img src="../info_project/justificacion_02.png" width="500"/>
+</p>
+
+(Müller y Gailing, 2019; Yang _et al.,_ 2018).
+
+
+* * *
+## Hipótesis
+
+En especies arbóreas de vida larga se han reportado genes asociados a una respuesta adaptativa frente a cambios climáticos, por lo cual, se espera que _Q. macdougallii_, encino endémico, presente genes asociados a variables ambientales, como la temperatura, la precipitación y la edafología.
+
+<p align="center">
+<img src="../info_project/hipotesis_01.png" width="800"/>
+</p>
+
+
+
+* * *
+## Objetivos
+
+<p align="center">
+<img src="../info_project/objetivos_esp.png" width="800"/>
+</p>
 
 
 
