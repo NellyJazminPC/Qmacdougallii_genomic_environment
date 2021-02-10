@@ -72,7 +72,7 @@ Sección: _Quercus_ (encinos blancos)
 Encino endémico en peligro (UICN, 2020) y amenazado (NOM-059, 2019).
 
 <p align="center">
-<img src="../info_project/qmacdougallii.png" width="800"/>
+<img src="../info_project/qmacdougallii.png" width="600"/>
 </p>
 
 Individuos adultos de _Q. macdougallii_: a) Hojas de un individuo adulto; b) Hojas de un individuo con características arbustivas en el sitio MC; c) Hojas con evidencia de herbivoría; d) Individuos adultos en el sitio PZ (aprox. 15 m de altura); e) Individuo con apariencia arbustiva en el sitio CZ (aprox. 3 m de altura); f) Individuo adulto en el sitio MB cubierto de musgos y epífitas.
