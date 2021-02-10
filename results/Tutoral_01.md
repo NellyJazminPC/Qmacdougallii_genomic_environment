@@ -46,9 +46,8 @@ Adaptación de especies arbóreas frente al Cambio Climático ([IPCC, 2007](http
 Distribución geográfica de las ocho secciones del género *Quercus* ([Denk *et al.,* 2017](https://link.springer.com/chapter/10.1007/978-3-319-69099-5_2)).
 
 - México es considerado uno de los más grandes centros de diversificación del género.
-- Se estiman 150 especies aprox.
-- Con 76 especies endémicas aprox.
-- Oaxaca es consierado un hotspot
+- Se estiman 150 especies aprox. (76 endémicas).
+- Oaxaca tiene el mayor número de especies de encinos en el país. Hay especies de las secciones _Lobatae_ y _Quercus_, y tiene dos encinos endémicos, uno por cada sección, _Q. mullerrii_ y _Q. macdougallii_ respectivamente.
 
 <p align="center">
 <img src="../info_project/mex-oax-tree.png" width="600"/>
@@ -181,12 +180,12 @@ Sitios de muestreo: a) Cerro Zacate; b) Carretera Oaxaca-Tuxtepec Km 175; c) Cer
 <img src="../results/figures/ensambles_ident_snps_outliers_.png" width="700"/>
 </p>
 
-
-
 - En la _pipeline_ del [Centro Genómico de Minessota](https://genomics.umn.edu/services/gbs) se utilizaron los programas: Illumina bcl2fastq, Trimmomatic, bwa, un genoma de referencia híbrido, creado entre el genoma de _Q. lobata_ (Sork _et al.,_ 2016) y las lecturas consenso de los individuos muestreados.      
 Con Freebayes se generó un VCF y se realizaron filtros con VCFTools.
+Al final se identificaron **8,186 SNPs** (Pacheco-Cruz, 2019).
 
-- Para las pruebas con otras _pipelines_ se comenzó con el análisis de visualización y limpieza de las secuencias de los 79 individuos ya se realizó con los programas FastQC y Trimmomatic. La bitacorá se puede consultar [aqui](../results/workflow_first_part.md).En promedio se obtuvieron 700 mil lecturas por muestra, con un promedio en puntuaciones de calidad ≥ Q30.
+- Para las pruebas con otras _pipelines_ se comenzó con el análisis de visualización y limpieza de las secuencias de los 79 individuos.
+	- Ya se realizó con los programas **FastQC** y **Trimmomatic**. La bitacorá se puede consultar [aqui](../results/workflow_first_part.md).
 
 - El análisis con la _pipeline_ de **ipyRAD** esta en proceso, por el momento ya se hizo la [primer prueba](../results/Quercus_mac_lobata_ipyrad.md) con los parámetros de _default_ del programa y con el genoma de referencia de _Q. lobata_ encontrado en [HardWood Genomics Project](https://hardwoodgenomics.org/bio_data/25), y se han identificado 191,153 SNPs pero con bajas frecuencias, lo que procedería es hacer un filtro para excluir aquellos con altos niveles de _Ns_ o datos faltantes.
 
@@ -231,23 +230,21 @@ A partir del VCF con los 8,186 SNPs identificados en Pacheco-Cruz (2019).
 <img src="../results/figures/snpstats_8snps_outliers_2pop.png" width="500"/>
 </p>
 
-
-A partir de estos tres métodos se generaron cinco bases de datos con los ID de cada SNP outlier y a partir de un diagrama de Venn se identificaron cuantos de ellos se compartían entre las cinco bases de datos.
+A partir de estos tres métodos se generaron cinco bases de datos con los ID de cada _SNP outlier_ y a partir de un diagrama de Venn se identificaron cuantos de ellos se compartían entre las cinco bases de datos.
 
 
 <p align="center">
 <img src="../results/figures/venn.outl.bay.snpstat.pcadapt.2pop.8sites" width="500"/>
 </p>
+Diagrama de Venn entre las cinco bases de datos generadas en los tres métodos para identificación de _SNPs outliers_. 
 
-Diagrama de Venn entre las cinco bases de datos generadas en los tres métodos para identificación de SNPs outliers. 
 
-
-El único SNP outlier que comparten las cinco bases de datos es el **“SSCAFFOLD-14_28801306”**, en donde se identificó el cambio entre citosina y adenina, 
+El único _SNP outlier_ que comparten las cinco bases de datos es el **“SSCAFFOLD-14_28801306”**, en donde se identificó el cambio entre citosina y adenina. 
 
 Su secuencia, tomando 100 pb en ambas direcciones a partir del SNP, es:
-`TATGTTTTTCAAGAATTTCAAACAATCTATTATCATTCAAAAAAGATAGAAAACGTATAGCTAGACTTCTTTCCTCCTCTGGCTTATCAAATGAAAGAGCMTTTTCTCCCATTAATAACTCTACGAGGACCACTCCAAAGCTATAAACATCACTTTTCTCTGTCAATTGACTTGTTTGCATGTATTCAGGATCCAAGTATC`
+`TATGTTTTTCAAGAATTTCAAACAATCTATTATCATTCAAAAAAGATAGAAAACGTATAGCTAGACTTCTTTCCTCCTCTGGCTTATCAAATGAAAGAGC*M*TTTTCTCCCATTAATAACTCTACGAGGACCACTCCAAAGCTATAAACATCACTTTTCTCTGTCAATTGACTTGTTTGCATGTATTCAGGATCCAAGTATC`
 
-Al hacer un BLAST en NCBI se pudo identificar una similitud con el receptor putativo de quinasa asociado a pared 16 PREDICHO para _Q. lobata_ (LOC115985898), mRNA
+Al hacer un BLAST en NCBI se pudo identificar una similitud con el receptor putativo tipo quinasa asociado a pared (16) PREDICHO para _Q. lobata_ (LOC115985898).
 
 >Sequence ID: XM_031108791.1Length: 2253
 
@@ -257,7 +254,7 @@ El cambio de entre citosina y adenina **(C:A = M)** puede afectar la traducción
 La familia de genes de _wall-associated kinase_ (WAK), una de las familias de genes _receptor-like kinase_ (RLK) en plantas, desempeña funciones importantes en la expansión celular, la resistencia a patógenos y la tolerancia al estrés por metales pesados en Arabidopsis thaliana ([Zhang _et al.,_ 2005](http://www.plantphysiol.org/content/139/3/1107.short))
 
 
-_Pendiente:_ Aún faltan más análisis para corroborar esto además del otro enfoque donde se buscará si en genes previamente identificados para otros encinos como genes candidatos a adaptación, hay variaciones identificadas en las secuencias de *Q. macdougallii*.
+_Pendiente:_ Aún faltan más análisis para corroborar esto además de los resultados de los otros ensambles y del otro enfoque donde se buscará a partir de una lista de genes previamente identificados para otros encinos como genes candidatos a adaptación.
 
 **Actividad complementaria para el semestre 2021-2: Genética del paisaje**
 
