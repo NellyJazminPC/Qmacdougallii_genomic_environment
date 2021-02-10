@@ -150,8 +150,10 @@ Esta área se encuentra en una zona de transición entre dos provincias biogeogr
 
 
 <p align="center">
-<img src="../info_project/Sitios.jpg" width="500"/>
+<img src="../info_project/figura_sitios_muestreo_fotos.jpg" width="500"/>
 </p>
+
+Sitios de muestreo: a) Cerro Zacate; b) Carretera Oaxaca-Tuxtepec Km 175; c) Cerro Mirador; d) Parte baja del Cerro Mirador; e) Entrada a Comaltepec a partir de la Carretera Federal Oaxaca-Tuxtepec; f) Laguna del Sacrificio; g) Camino Real; h) Pozuelos.
 
 - - -
 
@@ -168,5 +170,57 @@ Esta área se encuentra en una zona de transición entre dos provincias biogeogr
 * * *
 # 7. Resultados preliminares
 
+PCAdapt
+<p align="center">
+<img src="../results/figures/PCAdapt_01.png" width="500"/>
+</p>
 
+
+
+<p align="center">
+<img src="../results/figures/snps_outliers_PCAdapt.png" width="500"/>
+</p>
+
+
+<p align="center">
+<img src="../results/figures/8snps_outliers_PCAdapt.png" width="500"/>
+</p>
+
+
+BayeScan
+<p align="center">
+<img src="../results/figures/Bayescan_8pop_2pop.png" width="500"/>
+</p>
+
+
+<p align="center">
+<img src="../results/figures/bayescan_8snps_8pop.png" width="500"/>
+<img src="../results/figures/bayescan_1snp_2pop.png" width="500"/>
+</p>
+
+SnpStats
+
+<p align="center">
+<img src="../results/figures/snpstats_8snps_outliers_8pop.png" width="500"/>
+<img src="../results/figures/snpstats_8snps_outliers_2pop.png" width="500"/>
+</p>
+
+
+A partir de estos tres métodos se generaron cinco bases de datos con los ID de cada SNP outlier y a partir de un diagrama de Venn se identificaron cuantos de ellos se compartían entre las cinco bases de datos.
+
+
+<p align="center">
+<img src="../results/figures/venn.outl.bay.snpstat.pcadapt.2pop.8sites" width="500"/>
+</p>
+
+Diagrama de Venn entre las cinco bases de datos generadas en los tres métodos para identificación de SNPs outliers. 
+
+
+El único SNP outlier que comparten las cinco bases de datos es el “SSCAFFOLD-14_28801306”, en donde se identificó el cambio entre citosina y adenina, el cual se ubica en la secuencia:
+TATGTTTTTCAAGAATTTCAAACAATCTATTATCATTCAAAAAAGATAGAAAACGTATAGCTAGACTTCTTTCCTCCTCTGGCTTATCAAATGAAAGAGCMTTTTCTCCCATTAATAACTCTACGAGGACCACTCCAAAGCTATAAACATCACTTTTCTCTGTCAATTGACTTGTTTGCATGTATTCAGGATCCAAGTATC
+Al hacer un BLAST se pudo identificar una similitud con el putativo receptor de quinasa asociado a pared 16 PREDICHO para Q. lobata (LOC115985898), mRNA
+Sequence ID: XM_031108791.1Length: 2253
+El cambio de entre citosina y adenina (C:A = M) puede afectar la traducción de prolina a histidina en esta región. 
+
+Pendiente: Aún faltan más análisis para corroborar esto además del otro enfoque donde se buscará si en genes previamente identificados para otros encinos como genes candidatos a adaptación, hay variaciones identificadas en las secuencias de Q. macdougallii.
 
