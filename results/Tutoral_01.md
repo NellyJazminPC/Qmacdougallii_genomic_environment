@@ -24,4 +24,14 @@
 * * *
 
 #### Los bosques templados
+- Importantes reservorios de biomasa y biodiversidad
+- Servicios ecológicos
+- Patrimonio biocultural
+
+<p align="center">
+<img src="../info_project/forests.png" width="900"/>
+</p>
+
+* * *
+#### Encinos
 
