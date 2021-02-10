@@ -3,7 +3,7 @@
 ## Análisis de la variación genómica funcional y su asociación con variables ambientales en _Quercus macdougallii_ Martínez (Fagaceae), encino endémico de Oaxaca.
 
 <p align="center">
-<img src="../info_project/Pozuelos_Arbol-sacrificio_sagrado.jpg" width="600"/>
+<img src="../info_project/Pozuelos_Arbol-sacrificio_sagrado.jpg" width="700"/>
 </p>
 
 
@@ -18,7 +18,7 @@
 # Introducción y planteamiento del problema
 
 <p align="center">
-<img src="../info_project/Forest_oak_pines.jpg" width="500"/>
+<img src="../info_project/Forest_oak_pines.jpg" width="700"/>
 </p>
 
 * * *
