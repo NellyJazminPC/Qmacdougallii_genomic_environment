@@ -15,9 +15,7 @@
 ### - Dr. Juan P. Jaramillo Correa
 
 * * *
-# 1. Introducción y planteamiento del problema
-
-
+# 1. Introducción 
 
 ## Los bosques templados
 
@@ -116,8 +114,17 @@ De la especie:
 
 * * *
 # 4. Hipótesis
-
-En especies arbóreas de vida larga se han reportado genes asociados a una respuesta adaptativa frente a cambios climáticos, por lo cual, se espera que _Q. macdougallii_, encino endémico, presente genes asociados a variables ambientales, como la temperatura, la precipitación y la edafología.
+    
+        
+            
+                
+                
+En especies arbóreas de vida larga se han reportado genes asociados a una respuesta adaptativa frente a cambios climáticos, por lo cual, se espera que _Q. macdougallii_, encino endémico, presente genes asociados a variables ambientales, como la temperatura, la precipitación y la edafología.    
+     
+         
+             
+                  
+                  
 
 <p align="center">
 <img src="../info_project/hipotesis_01.png" width="800"/>
