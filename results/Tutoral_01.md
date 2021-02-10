@@ -3,7 +3,7 @@
 ## Análisis de la variación genómica funcional y su asociación con variables ambientales en _Quercus macdougallii_ Martínez (Fagaceae), encino endémico de Oaxaca.
 
 <p align="center">
-<img src="../info_project/Pozuelos_Arbol-sacrificio_sagrado.jpg" width="700"/>
+<img src="../info_project/Pozuelos_Arbol-sacrificio_sagrado.jpg" width="600"/>
 </p>
 
 
@@ -18,7 +18,7 @@
 # Introducción y planteamiento del problema
 
 <p align="center">
-<img src="../info_project/Forest_oak_pines.jpg" width="700"/>
+<img src="../info_project/Forest_oak_pines.jpg" width="600"/>
 </p>
 
 * * *
@@ -55,7 +55,7 @@ Distribución geográfica de las ocho secciones del género *Quercus* ([Denk *et
 - Oaxaca es consierado un hotspot
 
 <p align="center">
-<img src="../info_project/mex-oax-tree.png" width="500"/>
+<img src="../info_project/mex-oax-tree.png" width="600"/>
 </p>
 
 
@@ -72,7 +72,7 @@ Sección: _Quercus_ (encinos blancos)
 Encino endémico en peligro (UICN, 2020) y amenazado (NOM-059, 2019).
 
 <p align="center">
-<img src="../info_project/qmacdougallii.png" width="500"/>
+<img src="../info_project/qmacdougallii.png" width="800"/>
 </p>
 
 Individuos adultos de _Q. macdougallii_: a) Hojas de un individuo adulto; b) Hojas de un individuo con características arbustivas en el sitio MC; c) Hojas con evidencia de herbivoría; d) Individuos adultos en el sitio PZ (aprox. 15 m de altura); e) Individuo con apariencia arbustiva en el sitio CZ (aprox. 3 m de altura); f) Individuo adulto en el sitio MB cubierto de musgos y epífitas.
