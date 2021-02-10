@@ -70,10 +70,6 @@ Distribución geográfica de las ocho secciones del género *Quercus* ([Denk *et
 │         └── Subgénero: Quercus  
 │               └── Sección: Quercus (encinos blancos)
 │                      └── Especie: Q. macdougallii
- 
-   
-
-
 ```
 Nombres comunes en la zona donde se distribuye:
 
