@@ -4326,3 +4326,5 @@ data2.stats
 ```python
 
 ```
+En el VCF se muestran los 191,153 SNPs que se identificaron con esta _pipeline_.
+![](../results/figures/vcf_ipyrad_data.set2.png)
