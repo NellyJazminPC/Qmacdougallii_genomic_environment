@@ -65,11 +65,12 @@ Distribución geográfica de las ocho secciones del género *Quercus* ([Denk *et
 ## *Quercus macdougallii* Martínez (1963)
 
 ```
-├── Familia: Fagaeae
-│   └── Género: Quercus   
-│         └── Subgénero: Quercus  
-│               └── Sección: Quercus (encinos blancos)
-│                      └── Especie: Q. macdougallii
+├── Orden: Fagales
+│   └── Familia: Fagaceae
+│         └── Género: Quercus  
+│               └── Subgénero: Quercus
+│                      └── Sección: Quercus (encinos blancos)
+│                              └── Especie: Q. macdougallii
 ```
 Nombres comunes en la zona donde se distribuye:
 
@@ -135,8 +136,33 @@ En especies arbóreas de vida larga se han reportado genes asociados a una respu
 <img src="../info_project/objetivos_esp.png" width="800"/>
 </p>
 
+* * *
+## Materiales y métodos
+
+### Área de estudio
+
+<p align="center">
+<img src="../info_project/mapas_sitios de muestreo_escala_cor_powerpoint.jpg" width="600"/>
+</p>
+
+<p align="center">
+<img src="../info_project/Sitios.jpg" width="600"/>
+</p>
+
+- - -
+
+### Ensambles
 
 
+- - -
+
+### Identificación de _SNPs outliers_
+
+
+
+
+* * *
+## Resultados preliminares
 
 
 
