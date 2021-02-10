@@ -7,7 +7,7 @@
 </p>
 
 
-### Alumna: Nelly Jazmín Pacheco Cruz
+### Alumna: Nelly J. Pacheco Cruz
 
 ### Tutor principal: Dr. Jorge E. Campos Contreras
 ### Miembros del Comité Tutor:
@@ -183,10 +183,12 @@ Sitios de muestreo: a) Cerro Zacate; b) Carretera Oaxaca-Tuxtepec Km 175; c) Cer
 
 
 
+- En la _pipeline_ del [Centro Genómico de Minessota](https://genomics.umn.edu/services/gbs) se utilizaron los programas: Illumina bcl2fastq, Trimmomatic, bwa, un genoma de referencia híbrido, creado entre el genoma de _Q. lobata_ (Sork _et al.,_ 2016) y las lecturas consenso de los individuos muestreados.      
+Con Freebayes se generó un VCF y se realizaron filtros con VCFTools.
 
-El análisis de visualización y limpieza de las secuencias de los 79 individuos ya se realizó con los programas FastQC y Trimmomatic. La bitacorá se puede consultar [aqui](../results/workflow_first_part.md).
+- Para las pruebas con otras _pipelines_ se comenzó con el análisis de visualización y limpieza de las secuencias de los 79 individuos ya se realizó con los programas FastQC y Trimmomatic. La bitacorá se puede consultar [aqui](../results/workflow_first_part.md).En promedio se obtuvieron 700 mil lecturas por muestra, con un promedio en puntuaciones de calidad ≥ Q30.
 
-El análisis con la _pipeline_ de **ipyRAD** esta en proceso, por el momento ya se hizo la [primer prueba](../results/Quercus_mac_lobata_ipyrad.md) con los parámetros de _default_ del programa y con el genoma de referencia de _Q. lobata_ encontrado en [HardWood Genomics Project](https://hardwoodgenomics.org/bio_data/25), y se han identificado 191,153 SNPs pero con bajas frecuencias, lo que procedería es hacer un filtro para excluir aquellos con altos niveles de _Ns_ o datos faltantes.
+- El análisis con la _pipeline_ de **ipyRAD** esta en proceso, por el momento ya se hizo la [primer prueba](../results/Quercus_mac_lobata_ipyrad.md) con los parámetros de _default_ del programa y con el genoma de referencia de _Q. lobata_ encontrado en [HardWood Genomics Project](https://hardwoodgenomics.org/bio_data/25), y se han identificado 191,153 SNPs pero con bajas frecuencias, lo que procedería es hacer un filtro para excluir aquellos con altos niveles de _Ns_ o datos faltantes.
 
 
 * * *
@@ -251,5 +253,12 @@ Al hacer un BLAST en NCBI se pudo identificar una similitud con el receptor puta
 
 El cambio de entre citosina y adenina **(C:A = M)** puede afectar la traducción, pasando de prolina a histidina en esta región. 
 
-_Pendiente:_ Aún faltan más análisis para corroborar esto además del otro enfoque donde se buscará si en genes previamente identificados para otros encinos como genes candidatos a adaptación, hay variaciones identificadas en las secuencias de **Q. macdougallii**.
+
+La familia de genes de _wall-associated kinase_ (WAK), una de las familias de genes _receptor-like kinase_ (RLK) en plantas, desempeña funciones importantes en la expansión celular, la resistencia a patógenos y la tolerancia al estrés por metales pesados en Arabidopsis thaliana ([Zhang _et al.,_ 2005](http://www.plantphysiol.org/content/139/3/1107.short))
+
+
+_Pendiente:_ Aún faltan más análisis para corroborar esto además del otro enfoque donde se buscará si en genes previamente identificados para otros encinos como genes candidatos a adaptación, hay variaciones identificadas en las secuencias de *Q. macdougallii*.
+
+**Actividad complementaria para el semestre 2021-2: Genética del paisaje**
+
 
