@@ -15,13 +15,9 @@
 ### - Dr. Juan P. Jaramillo Correa
 
 * * *
-# Introducción y planteamiento del problema
+# 1. Introducción y planteamiento del problema
 
-<p align="center">
-<img src="../info_project/Forest_oak_pines.jpg" width="600"/>
-</p>
 
-* * *
 
 ## Los bosques templados
 
@@ -93,7 +89,7 @@ Individuos adultos de _Q. macdougallii_: a) Hojas de un individuo adulto; b) Hoj
 Presenta una distribución restringida a la Sierra Norte de Oaxaca,  también conocida como Sierra Juárez ([Valencia, 2004](https://www.botanicalsciences.com.mx/index.php/botanicalSciences/article/view/1692); [Romero-Rangel _et al.,_ 2015](https://www.iztacala.unam.mx/coordinacioneditorial/vinculos/servicio/libreria/catalogo.php#indice)).
 
 * * *
-## Antecedentes
+# 2. Antecedentes
 
 
 
@@ -103,7 +99,7 @@ De la especie:
 
 
 * * *
-## Justificación
+# 3. Justificación
 
 <p align="center">
 <img src="../info_project/justificacion_01.png" width="700"/>
@@ -119,7 +115,7 @@ De la especie:
 
 
 * * *
-## Hipótesis
+# 4. Hipótesis
 
 En especies arbóreas de vida larga se han reportado genes asociados a una respuesta adaptativa frente a cambios climáticos, por lo cual, se espera que _Q. macdougallii_, encino endémico, presente genes asociados a variables ambientales, como la temperatura, la precipitación y la edafología.
 
@@ -130,39 +126,40 @@ En especies arbóreas de vida larga se han reportado genes asociados a una respu
 
 
 * * *
-## Objetivos
+# 5. Objetivos
 
 <p align="center">
 <img src="../info_project/objetivos_esp.png" width="800"/>
 </p>
 
 * * *
-## Materiales y métodos
+# 6. Materiales y métodos
 
 ### Área de estudio
 
 <p align="center">
-<img src="../info_project/mapas_sitios de muestreo_escala_cor_powerpoint.jpg" width="600"/>
+<img src="../info_project/mapas_sitios de muestreo_escala_cor_powerpoint.jpg" width="500"/>
 </p>
+
 
 <p align="center">
-<img src="../info_project/Sitios.jpg" width="600"/>
+<img src="../info_project/Sitios.jpg" width="500"/>
 </p>
 
 - - -
 
-### Ensambles
+### Ensambles e identificación de _SNPs outliers_
 
 
 - - -
 
-### Identificación de _SNPs outliers_
+### _SNPs outliers_ en regiones codificantes
 
 
 
 
 * * *
-## Resultados preliminares
+# 7. Resultados preliminares
 
 
 
