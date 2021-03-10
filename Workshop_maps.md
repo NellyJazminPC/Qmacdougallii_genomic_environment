@@ -13,3 +13,13 @@ El proceso para hacer los cortes en lote
 
 Después de obtener los cortes y en formato ``asc.`` faltaba definir la proyección para cada una de estas capas. Por ahora no encontré una forma de hacerlo en lotes por lo que lo hice de una en una      
 ![2021-03-09 (3)](https://user-images.githubusercontent.com/25624961/110558187-a8b32900-8107-11eb-8615-88aee3b623eb.png)
+
+
+Realicé una rápida prueba con MaxEnt https://biodiversityinformatics.amnh.org/open_source/maxent/ para asegurarme que leyera las capas y así fue.   
+El archivo que utilicé para las coordenadas fue ``Pcaesium_long_lat_maxent_R_extraccion - copia.csv``
+
+
+
+Después hice el mismo proceso cortando las capas con el shapefile de corte_altiplano.       
+
+
